@@ -218,6 +218,7 @@
     .agent-message{
       background: #f3f4f6;
       border-radius: 0 10px 10px 10px;
+      white-space: pre-line;
     }
 
     .customer-message{
@@ -328,9 +329,24 @@
 
          <!-- Chat area -->
           <div id="chat-messages" class="chat-messages p-3 d-flex flex-column gap-2">
+            {% if conversation %}
+            <!-- print the previous messages -->
+             {% for msg in previous_messages %}
+              {% if msg.role == 'user' %}
+                <div class="customer-message p-2 px-3" style="font-size: 13px;max-width: 85%;">
+                  {{ msg.content }}
+                </div>
+              {% else %}
+                <div class="agent-message p-2 px-3" style="font-size: 13px;max-width: 85%;">
+                  {{ msg.content }}
+                </div>
+              {% endif %}
+             {% endfor %}
+            {% else %}
             <div class="agent-message p-2 px-3" style="font-size: 13px; max-width: 85%;">
-              Hi User, I'm Maya, How can I help you with your order today?
+              Hi {{ request.user.first_name }}, I'm Maya, How can I help you with your order today?
             </div>
+            {% endif %}
           </div>
 
           <!-- Chat footer -->
@@ -346,6 +362,20 @@
 </div>
 
 <script>
+
+  function showTyping(){
+    const messages = document.getElementById("chat-messages");
+    messages.insertAdjacentHTML("beforeend", `
+    <div id="typing-indicator" class="agent-message p-2" style="font-size:13px;max-width:85%;">
+      Typing...
+    </div>
+    `);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  function hideTyping(){
+    document.getElementById("typing-indicator").remove();
+  }
 
   function showChat(){
     document.getElementById("help-card").style.display = "none";
@@ -366,9 +396,10 @@
     div.innerText = text;
 
     messages.appendChild(div);
+    messages.scrollTop = messages.scrollHeight;
   }
 
-  function sendMessage(){
+  async function sendMessage(){
     const input = document.getElementById("chat-input");
     const message = input.value.trim();
 
@@ -378,7 +409,36 @@
     appendMessage(message, "customer");
 
     input.value = "";
+    input.disabled = true;
 
+    const typingTimeout = setTimeout(() => showTyping(), 1000); // show typing after 2 seconds
+
+    // send message to django view
+    try{
+      const response = await fetch("/support/chat/{{order.id}}/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-CSRFToken": "{{ csrf_token }}"
+        },
+        body: JSON.stringify({message: message})
+      });
+
+      const data = await response.json()
+      hideTyping();
+      appendMessage(data.reply, "agent");
+      input.disabled = false;
+      input.focus();
+    }catch(error){
+      console.error("Error: ", error)
+      appendMessage("Sorry, something went wrong", "agent")
+      input.disabled = false;
+      input.focus();
+    } finally{
+      clearTimeout(typingTimeout);
+      hideTyping();
+      
+    }
   }
 
     // send message on Enter key

@@ -1,0 +1,188 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "username": "fraud_test",
+      "email": "fraud.test@gmail.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "is_staff": false,
+      "is_superuser": false,
+      "is_active": true,
+      "password": "your_hashed_password_here",
+      "date_joined": "2024-01-01T00:00:00Z",
+      "last_login": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 11,
+    "fields": {
+      "user": 5,
+      "product": 1,
+      "product_name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
+      "amount": "42999.00",
+      "status": "delivered",
+      "carrier": "BlueDart",
+      "tracking_number": "BD11111111",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-01-10T10:00:00Z",
+      "updated_at": "2025-01-10T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 12,
+    "fields": {
+      "user": 5,
+      "product": 2,
+      "product_name": "CoolBreeze 1.5 Ton 3 Star Split AC",
+      "amount": "34999.00",
+      "status": "delivered",
+      "carrier": "Delhivery",
+      "tracking_number": "DL22222222",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-02-05T10:00:00Z",
+      "updated_at": "2025-02-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 13,
+    "fields": {
+      "user": 5,
+      "product": 3,
+      "product_name": "CoolBreeze 2 Ton 3 Star Split AC",
+      "amount": "45999.00",
+      "status": "delivered",
+      "carrier": "BlueDart",
+      "tracking_number": "BD33333333",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-03-01T10:00:00Z",
+      "updated_at": "2025-03-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 14,
+    "fields": {
+      "user": 5,
+      "product": 4,
+      "product_name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
+      "amount": "38999.00",
+      "status": "delivered",
+      "carrier": "Ekart",
+      "tracking_number": "EK44444444",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-03-20T10:00:00Z",
+      "updated_at": "2025-03-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 15,
+    "fields": {
+      "user": 5,
+      "product": 5,
+      "product_name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
+      "amount": "68999.00",
+      "status": "delivered",
+      "carrier": "BlueDart",
+      "tracking_number": "BD55555555",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-04-10T10:00:00Z",
+      "updated_at": "2025-04-10T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 6,
+    "fields": {
+      "order": 11,
+      "user": 5,
+      "reason": "AC stopped working after 2 days",
+      "status": "approved",
+      "created_at": "2025-01-12T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 7,
+    "fields": {
+      "order": 11,
+      "user": 5,
+      "reason": "Wrong model delivered",
+      "status": "denied",
+      "created_at": "2025-01-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 8,
+    "fields": {
+      "order": 12,
+      "user": 5,
+      "reason": "AC making loud noise",
+      "status": "denied",
+      "created_at": "2025-02-08T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 9,
+    "fields": {
+      "order": 12,
+      "user": 5,
+      "reason": "Product not as described",
+      "status": "denied",
+      "created_at": "2025-02-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 10,
+    "fields": {
+      "order": 13,
+      "user": 5,
+      "reason": "AC not cooling properly",
+      "status": "approved",
+      "created_at": "2025-03-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 11,
+    "fields": {
+      "order": 14,
+      "user": 5,
+      "reason": "Received damaged product",
+      "status": "denied",
+      "created_at": "2025-03-25T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 12,
+    "fields": {
+      "order": 15,
+      "user": 5,
+      "reason": "AC compressor not working",
+      "status": "pending",
+      "created_at": "2025-04-12T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 13,
+    "fields": {
+      "order": 13,
+      "user": 5,
+      "reason": "Want to return — changed my mind",
+      "status": "denied",
+      "created_at": "2025-03-10T10:00:00Z"
+    }
+  }
+]
