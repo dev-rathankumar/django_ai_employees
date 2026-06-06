@@ -1,0 +1,101 @@
+{% extends "support/dashboard_base.html" %}
+
+{% block content %}
+      <!-- Header -->
+      <div class="d-flex align-items-center gap-3 mb-4">
+        <a href="{% url 'dashboard' %}" class="text-muted text-decoration-none" style="font-size:13px;">← Back</a>
+        <h5 class="fw-bold mb-0">Conversation #{{ conversation.id }}</h5>
+        <span class="text-muted" style="font-size:13px;">{{ conversation.user.first_name }} {{ conversation.user.last_name }} · Order #{{ conversation.order.id }} · {{ conversation.order.product_name }}</span>
+      </div>
+
+      <!-- Two Column Layout -->
+      <div class="row g-3" style="height:calc(100vh - 160px);">
+
+        <!-- Left: Chat Transcript -->
+        <div class="col-md-6" style="max-height: calc(100vh - 150px);">
+          <div class="card h-100">
+            <div class="card-header fw-semibold" style="font-size:13px;">
+              Chat Transcript
+            </div>
+            <div class="card-body overflow-auto d-flex flex-column gap-3" id="chat-transcript">
+
+              {% for msg in messages %}
+              {% if msg.role == "user" %}
+                <!-- Customer message -->
+              <div>
+                <div style="font-size:11px;color:#adb5bd;margin-bottom:3px;">{{ conversation.user.first_name }}</div>
+                <div class="bg-light rounded p-2 px-3" style="font-size:13px;max-width:85%;">
+                  {{ msg.content }}
+                </div>
+              </div>
+              {% else %}
+              <!-- Agent message -->
+              <div class="text-end">
+                <div style="font-size:11px;color:#adb5bd;margin-bottom:3px;">Maya (AI Agent)</div>
+                <div class="rounded p-2 px-3 d-inline-block text-start" 
+                     style="font-size:13px;max-width:85%;background:#ede9fe;color:#3C3489;">
+                  {{ msg.content }}
+                </div>
+              </div>
+              {% endif %}
+            {% endfor %}
+
+              
+
+              
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Agent Activity -->
+        <div class="col-md-6" style="max-height: calc(100vh - 150px);">
+          <div class="card h-100">
+            <div class="card-header d-flex align-items-center gap-2" style="font-size:13px;">
+              <div style="width:8px;height:8px;border-radius:50%;background:#1D9E75;"></div>
+              <span class="fw-semibold">Agent Activity</span>
+            </div>
+            <div class="card-body overflow-auto d-flex flex-column gap-3" id="agent-activity">
+
+              <!-- Log entry -->
+               {% for log in agentlogs %}
+              <div>
+                <div class="d-flex align-items-center gap-2 mb-1">
+                {% if log.event_type == "tool_call" %}
+                  <span class="badge bg-primary" style="font-size:10px;">tool_call</span>
+                {% elif log.event_type == "tool_result" %}
+                  <span class="badge bg-secondary" style="font-size:10px;">tool_result</span>
+                {% elif log.event_type == "manager" %}
+                  <span class="badge bg-warning text-dark" style="font-size:10px;">manager</span>
+                {% elif log.event_type == "risk" %}
+                    <span class="badge bg-danger" style="font-size:10px;">risk</span>
+                {% else %}
+                    <span class="badge bg-success" style="font-size:10px;">final</span>
+                {% endif %}
+                  <span class="text-muted" style="font-size:11px;">{{ log.created_at | date:"h:i A" }}</span>
+                </div>
+                <p class="mb-0 text-muted" style="font-size:12px;">{{ log.message }}</p>
+              </div>
+
+              {% endfor %}
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      const chatTranscript = document.getElementById("chat-transcript");
+      const agentActivity = document.getElementById("agent-activity");
+      
+      if(chatTranscript){
+        chatTranscript.scrollTop = chatTranscript.scrollHeight;
+      }
+      if(agentActivity){
+        agentActivity.scrollTop = agentActivity.scrollHeight;
+      }
+    })
+  </script>
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends "support/dashboard_base.html" %}
+
+{% block content %}
+      <h5 class="fw-bold mb-4">Conversations</h5>
+
+      <div class="card">
+        <div class="table-responsive">
+          <table class="table table-hover mb-0">
+            <thead class="table-light">
+              <tr style="font-size:12px;">
+                <th class="px-4">Customer</th>
+                <th>Order</th>
+                <th>Product</th>
+                <th>Manager Involved</th>
+                <th>Risk Assessed</th>
+                <th>Status</th>
+                <th>Date</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody style="font-size:13px;" class="align-middle">
+            {% for conv in conversations %} 
+            <tr>
+                <td class="px-4">{{ conv.user.first_name }} {{ conv.user.last_name }}</td>
+                <td>Order #{{ conv.order.id }}</td>
+                <td>{{ conv.order.product_name }}</td>
+                <td>
+                    {% if conv.manager_involved %}
+                    <span class="badge bg-warning text-dark">Yes</span>
+                    {% else %}
+                    <span class="text-muted">-</span>
+                    {% endif %}
+                </td>
+                <td>
+                    {% if conv.risk_assessed %}
+                    <span class="badge bg-danger text-light">Yes</span>
+                    {% else %}
+                    <span class="text-muted">-</span>
+                    {% endif %}
+                </td>
+                <td>
+                    {% if conv.order.status == 'pending' %}
+                        <span class="badge bg-primary">Pending</span>
+                    {% elif conv.order.status == 'dispatched' %}
+                        <span class="badge bg-warning text-dark">Dispatched</span>
+                    {% elif conv.order.status == 'delivered' %}
+                        <span class="badge bg-success">Delivered</span>
+                    {% elif conv.order.status == 'cancelled' %}
+                        <span class="badge bg-danger">Cancelled</span>
+                    {% endif %}
+                </td>
+                <td class="text-muted">{{ conv.created_at }}</td>
+                <td><a href="{% url 'conversation_detail' conv.id %}" class="btn btn-sm btn-outline-secondary">View</a></td>
+            </tr>
+            {% endfor %}
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+{% endblock %}
+    
