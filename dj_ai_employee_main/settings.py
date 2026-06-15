@@ -141,3 +141,7 @@ ANTHROPIC_MODEL=config("ANTHROPIC_MODEL")
 
 
 STATICFILES_STORAGE = 'whitenoise.storage.StaticFilesStorage'
+
+CSRF_TRUSTED_ORIGINS = [
+    "djangoaiemployees-production.up.railway.app"
+]
