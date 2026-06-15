@@ -74,4 +74,7 @@ def conversation_stream(request, conversation_id):
                 yield f"data: {json.dumps(event)}\n\n"
         finally:
             unsubscribe(conversation_id, q)
-    return StreamingHttpResponse(event_stream(conversation_id), content_type="text/event-stream")
+    response = StreamingHttpResponse(event_stream(conversation_id), content_type="text/event-stream")
+    response["Cache-Control"] = "no-cache"
+    response["X-Accel-Buffering"] = "no"
+    return response
