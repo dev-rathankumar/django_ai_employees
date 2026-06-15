@@ -1,0 +1,4764 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-05-21T17:51:44.547Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "assistant: Hello! 👋 Welcome to CoolBreeze AC customer support",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\", \"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-05-25T13:46:54.469Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Conversation #2 - rathan / Order #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-05-25T13:46:54.469Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Conversation #1 - rathan / Order #4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-05-25T13:49:28.693Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Conversation #3 - rathan / Order #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-05-25T14:29:09.371Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Conversation #4 - rathan / Order #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-05-25T14:32:07.659Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Conversation #5 - rathan / Order #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-05-25T14:54:55.507Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Conversation #6 - rathan / Order #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-05-25T15:19:48.565Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Conversation #7 - rathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-05-25T16:24:37.301Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Conversation #8 - rathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-05-25T16:25:42.463Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Conversation #9 - rathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-05-25T16:30:33.093Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Conversation #10 - rathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-05-27T13:48:43.843Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Conversation #13 - rathan / Order #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-05-27T13:48:43.843Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Conversation #12 - rathan / Order #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-05-27T13:48:43.843Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Conversation #11 - rathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-05-28T07:35:13.624Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Conversation #17 - rathan / Order #4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-05-28T07:35:13.624Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Conversation #16 - rathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-05-28T07:35:13.624Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "Conversation #15 - rathan / Order #5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-05-28T07:35:13.624Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Conversation #14 - rathan / Order #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-05-28T08:23:34.970Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "fraud_test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-05-28T10:24:08.735Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Refund for Order #15 - pending",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Created at\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-05-28T10:24:17.440Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Refund for Order #13 - approved",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Created at\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-06-02T08:08:54.465Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "Conversation #18 - rathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-06-02T09:29:13.255Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "21",
+    "object_repr": "Conversation #21 - rathan / Order #5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-06-02T09:29:13.255Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "20",
+    "object_repr": "Conversation #20 - rathan / Order #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-06-02T09:29:13.255Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Conversation #19 - rathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-06-02T11:57:20.084Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "23",
+    "object_repr": "Conversation #23 - fraud_test / Order #13",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-06-02T11:57:20.084Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "22",
+    "object_repr": "Conversation #22 - rathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-06-03T10:30:11.020Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "321",
+    "object_repr": "user: Test test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-06-03T10:31:25.553Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "322",
+    "object_repr": "assistant: have heard back from my team and I need to be stra",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-06-03T10:34:20.502Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "322",
+    "object_repr": "assistant: have heard back from my team and I need to be stra",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-06-03T10:34:20.502Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "321",
+    "object_repr": "user: Test test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fwnKG5TUoXVYamNjrYQVoo$YPizn5d0zR17+OPGgsNVPD6bD8PoJ60cVL4VKKVgzLI=",
+    "last_login": "2026-06-15T15:59:00.854Z",
+    "is_superuser": true,
+    "username": "djangoadmin",
+    "first_name": "Admin",
+    "last_name": "",
+    "email": "developer.rathan@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fwnKG5TUoXVYamNjrYQVoo$YPizn5d0zR17+OPGgsNVPD6bD8PoJ60cVL4VKKVgzLI=",
+    "last_login": "2026-06-08T13:29:33.881Z",
+    "is_superuser": false,
+    "username": "rathan",
+    "first_name": "Rathan",
+    "last_name": "Kumar",
+    "email": "rathan.kumar@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fwnKG5TUoXVYamNjrYQVoo$YPizn5d0zR17+OPGgsNVPD6bD8PoJ60cVL4VKKVgzLI=",
+    "last_login": "2026-05-15T11:36:42.102Z",
+    "is_superuser": false,
+    "username": "priya",
+    "first_name": "Priya",
+    "last_name": "Sharma",
+    "email": "priya.sharma@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fwnKG5TUoXVYamNjrYQVoo$YPizn5d0zR17+OPGgsNVPD6bD8PoJ60cVL4VKKVgzLI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "arjun",
+    "first_name": "Arjun",
+    "last_name": "Nair",
+    "email": "arjun.nair@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$3tUXmhTXyeeS8QzUBXIxlA$dZjPcq+8P7ZzBC9t4BrE5LNrG4igxXjtvYpa6JXiRBQ=",
+    "last_login": "2026-06-09T09:43:32.185Z",
+    "is_superuser": false,
+    "username": "fraud_test",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "fraud.test@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2scp7t4b2czwqsfcj9quprlgwg3npdsb",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wSG0V:X_7pH2TmJYcRwqNsiLsci3K-bF28IKGF35H3UkosLCo",
+    "expire_date": "2026-06-10T15:17:19.708Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2y83e9w8gdsipyiyteocj6z0qd5ka23h",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wVmct:C9kwd71uVAGig-kvSWsDlnHgHlM46NNYgwzn6ZHw8gE",
+    "expire_date": "2026-06-20T08:43:31.604Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "322w9d0ujff6dg7s0ufizake17qkqed4",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wWsfY:dQu8lRPmF5HZ4WKDOuqVDpnWC8g3_R9C5Vetl9LySuc",
+    "expire_date": "2026-06-23T09:22:48.192Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "48a1atx8v16yox1ycpunul47t3azv7pi",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wPfTr:RJiA8PE-Xn1tVRApciPrW9RSX26UF1qbUuYLI-qTNDQ",
+    "expire_date": "2026-06-03T11:52:55.356Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "48i4udwrrorv6j7kbyrvdgekm4bqnyjq",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wVmMs:XTMv-DHyAs-izl4EVI__mcSoRFA_AbN7clfToRAic64",
+    "expire_date": "2026-06-20T08:26:58.731Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4itgm276mcbwc94qpcrw4079av9876fd",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wRUPu:Uqi1CXjamPT6fhpTmhdbFZT_mJmTlihz37BYSgakxxU",
+    "expire_date": "2026-06-08T12:28:22.233Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5fvrrsljmh7j3n9dn7w3cntihx0102p6",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wQ6ds:f9D2UJGFIwlXrNulcnS8lIomtpQo09IsmrSEnAnOtlI",
+    "expire_date": "2026-06-04T16:53:04.425Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7408vwm63r50i8knl1bww9w29umpi82r",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDoWGhduu8ZyDAzSNVAUtqV8e7apAvd_vfef6mA25rD1mQJM6uLsur0u0Wkh5Qd8B3LrWqqZV3mqHdFH7TpqbI8r4f7d5Cx5W_thW10rjdEnlyMYAbre2FmIoQRwHoiSi4aQMQE3ZDEYzf6MzgEFPX-AAYQOOE:1wNpD2:lPpF-tKtqirQrhZ4ZdNDGTghBHzsIxjmi6wVSo6b3cI",
+    "expire_date": "2026-05-29T09:51:56.500Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "801xufll0y2g7zzjwl3xx59idzybeqyl",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wSXty:y8WsKcTdjka0jsfelKkJ4huewxd58oolA551rzYSSgk",
+    "expire_date": "2026-06-11T10:23:46.082Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "82y3qq59ktbirat3kwj6tmp8mzjw8szb",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wWZaR:4XPoPuQFUD7l_w2mV2gZf0Y0ypOkTL2iyfYP1c_ACKc",
+    "expire_date": "2026-06-22T13:00:15.977Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "89nyklfg4qvffyvarcrrjr6ndk9eeyy0",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wWZZz:GWvAR6GeCH6l2GuVAKzDQwGv_QmC8Gx9yTKtKFqPs60",
+    "expire_date": "2026-06-22T12:59:47.133Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8aj8dg9hozdjarmgcdy8b0meb017et98",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSH0UkBcuvcbCPehVA0kpV0Z_12bdKHbMzPnpVJel5LWLnOaWJ2UU4ffDTM9pG6A77nemqZWl3lCvSl6p11fGsvzvLt_ByX38q2jZ-8syJHJsolIHEUcZxkBnDUWgTEQgmGi6GS4erASyA8jjUHAq_cH_dM4Yg:1wUN5J:vu1ugX-vFBLi5d1uPcnhIkEd0pjDmosRVxODbr8zXFA",
+    "expire_date": "2026-06-16T11:15:01.078Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8qtsy2vpummwdn7nrodvjixrp6r78vrg",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wUivL:f0fBkzPubDzU-wKYicePOfvx1hfyQXNXZ3qGJKw2kgA",
+    "expire_date": "2026-06-17T10:34:11.345Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "94yec1xr3kigntc9cvwfni7uvalcxa7i",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSH0UkBcuvcbCPehVA0kpV0Z_12bdKHbMzPnpVJel5LWLnOaWJ2UU4ffDTM9pG6A77nemqZWl3lCvSl6p11fGsvzvLt_ByX38q2jZ-8syJHJsolIHEUcZxkBnDUWgTEQgmGi6GS4erASyA8jjUHAq_cH_dM4Yg:1wSW2A:8QrBMjGdt6WfhwKW4xXWTjMEFBEBr_0k0MVj8nPBIrs",
+    "expire_date": "2026-06-11T08:24:06.255Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9anw55sfa2g3ytqxresacvjl7boozjg4",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wVw7I:a8oeOVtl-vMdjAssCbpw87iPiW_BWmT78PKno9OHyQc",
+    "expire_date": "2026-06-20T18:51:32.553Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "aankmu4yz16gy24mn2fvqmm5sugeg85b",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wUhrv:MbCP36HO7r41DaMBjPlBUv1uQYokAmY3F6US8VS8hKQ",
+    "expire_date": "2026-06-17T09:26:35.465Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "aw0g2515vrun652q1rwo5gklwb8utnnc",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wSW1e:puGMZf3-xg5QPOjteLLeubScaBmnkGAh4sX3SO4dBfc",
+    "expire_date": "2026-06-11T08:23:34.973Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bvo7jmsvl8r5hnsnp9hzqn0fpzvs3181",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wUN5T:uhSwzqHZqZeUEt3to0KNpQhMBcjP9iCt8TQ57fBsjHE",
+    "expire_date": "2026-06-16T11:15:11.920Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cpjef18lsk2b9adhpirdq57gxbs57cv5",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wRVdl:-hIApGRDMHaZ2BZZ__YA217xOGvtN1pol3KJA-3Nbq0",
+    "expire_date": "2026-06-08T13:46:45.719Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ct0ztmqs3hiaesiz0mllwl03nx7jir76",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wSV76:EvqbBUGYfQcreMDyADVa6sFWjviaj4-g2ijaoOfpA04",
+    "expire_date": "2026-06-11T07:25:08.284Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dfw51d6gb743p3a3qh1r4pz1gor0wjko",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBgLLQu3fcMzTAzSNVAUtqV8e7apAvd_vfef6kJtzVPW5NlmlldlFOn3y0iPaTsgO9YblVTLesyR70r-qBNj5XleT3cv4OMLX_rIGyj950hCuRjBNPb0AkzEyEMADYQUfLRACImcH2SgG4IZ_AIKOr9AQapOOI:1wNrDX:En_aD6VPjBZGAHffnsMoxgv3X2xtSIxhfMJR5kLHuyc",
+    "expire_date": "2026-05-29T12:00:35.864Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "drciauqe0thvwccuz1tt0q1jtw9z2t3s",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wZ9iG:7w3PCzfkHVkSN0oraGYQsd8R68rLaKfZGBeVpdWi3YE",
+    "expire_date": "2026-06-29T15:59:00.884Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "iej9gnyovhej577aqnrrf3q78tx1filh",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSH0UkBcuvcbCPehVA0kpV0Z_12bdKHbMzPnpVJel5LWLnOaWJ2UU4ffDTM9pG6A77nemqZWl3lCvSl6p11fGsvzvLt_ByX38q2jZ-8syJHJsolIHEUcZxkBnDUWgTEQgmGi6GS4erASyA8jjUHAq_cH_dM4Yg:1wSXAc:EyrCue-cuW8fkGksRSHmOkE_NyWb0P7afDp2NfeSSDE",
+    "expire_date": "2026-06-11T09:36:54.454Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kifhuitr7kbfmqrnoxepynm4fkcakffs",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wUKB4:xeYt8UaWHaekOm8szr7WTMLqepi-ab5emv1wIkgi8Rw",
+    "expire_date": "2026-06-16T08:08:46.460Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l7pjq0tcxfv4kqt5cy709vury5hcl9rg",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wQ7Y9:wFdJ_3aDKBtLT1ZZvkZ_oaGEN3jUVheNLOQ2nMzrkJA",
+    "expire_date": "2026-06-04T17:51:13.401Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lednoyb0dvw8pnegr1uyzgr76orki9cs",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wSEcf:sKa55sZDwoSThNMw3etcP_tnVgavnwEcfQ4SqF6ok7Y",
+    "expire_date": "2026-06-10T13:48:37.390Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nm3vhmnxrps92qfcwys1om4i3skio63e",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wSG3M:U-kS9lLrfbNNNU1yNWqmD7tBo86bx8LG-9_hDv0ZQ4k",
+    "expire_date": "2026-06-10T15:20:16.335Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "of8cvscqlvcwvhs5czc8iinovu3ao586",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wUhrg:BzNR6ggIKC1ApSHisklk9_-SCj8yy6Q0Kbs3al-bnaI",
+    "expire_date": "2026-06-17T09:26:20.612Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p33o982uelzdkwna4mw2kr1baslbx2ra",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSH0UkBcuvcbCPehVA0kpV0Z_12bdKHbMzPnpVJel5LWLnOaWJ2UU4ffDTM9pG6A77nemqZWl3lCvSl6p11fGsvzvLt_ByX38q2jZ-8syJHJsolIHEUcZxkBnDUWgTEQgmGi6GS4erASyA8jjUHAq_cH_dM4Yg:1wULdO:5dYxcZRuDEpsCftLRn8xWxIqsjusyTRrp0bl1WpQMRI",
+    "expire_date": "2026-06-16T09:42:06.494Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p45moxuo3v94bbqb6bxht3f7ut0vh29w",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wUiXN:wqYqFSDHvLJAyEv-KVg5iGwG6Zl6n862-I1ZOQmRr-s",
+    "expire_date": "2026-06-17T10:09:25.340Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ptqjm5oqkbj869io89058ohoeyfqawgj",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wRYmA:RJmf5JaDFLRETdprJvWoIOxCFA9nLxFgNIihSexZb8U",
+    "expire_date": "2026-06-08T17:07:38.014Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q454secddp6f35yeya3kg8etr9c07abv",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wUfj9:SkfumIWYHsyAlqRK6xiyCPOYbz8rsaZU0gr40TLMDrM",
+    "expire_date": "2026-06-17T07:09:23.680Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qnu0kpga7y8u2mz7gnfgkqsla10wyh3m",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wP0At:nhwEeU7SV4hu85d3rZ2Wbvh--kCZ15nrQ0OHuRwyZ_c",
+    "expire_date": "2026-06-01T15:46:35.843Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r6j7nw9nxzi877ugx5e1txy4dwhtiw3g",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wSHK8:U5ohVUpUsPs8fTcYihpQEauZ87EngCxm9lArKy10xPs",
+    "expire_date": "2026-06-10T16:41:40.590Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "s01jyqjxvajubwlf1rbfmbvz2gmft0js",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnGC9iU9JzB-os_DiBHipMKcXcSKQVUI817M2-VYZlrXnqZ8sDqoqw6_HYI9CxtA_yAdh81jW2eBtSbonfa9W3k8rru7t9BhV7XNZmQnGcvENjSyQVTyKAwIqFY9JYpkEs2BrBwluQlpmOksAajgFOfLwZHOPU:1wPb2S:tL-AWA2gnuW1djHKiazxIEFrv2Yeo6-2rDBiS6liwtM",
+    "expire_date": "2026-06-03T07:08:20.624Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t7c0uyv91hn7ochhbwiqdjyk8vmktsks",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEwMDxcuvcbyPCoVA0kpV0Z_12bdKHbe865LxZoW2vYRlnCnNmZSXb63SKlR2k7yHdqt85Tb-syR74r_KCDX3suz8vh_h1UGvVbF4uEYK0hBZMmIIO2eKHAgwavNZC0GScvknZZGEAplHMQjQV0JUn2_gCtJjYl:1wNXTe:7okTKDknlcQPNEEnYsRcnuAKJCAnXh_1WPyf_MkTr9M",
+    "expire_date": "2026-05-28T14:55:54.511Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ttlbf4hp0k5acw9cua74966snrmwsqcm",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSH0UkBcuvcbCPehVA0kpV0Z_12bdKHbMzPnpVJel5LWLnOaWJ2UU4ffDTM9pG6A77nemqZWl3lCvSl6p11fGsvzvLt_ByX38q2jZ-8syJHJsolIHEUcZxkBnDUWgTEQgmGi6GS4erASyA8jjUHAq_cH_dM4Yg:1wWszc:lghXWNLpqfnRqrtlFtWSMAjvW7ZSbBov1NrlNaU20iE",
+    "expire_date": "2026-06-23T09:43:32.186Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wu1xuanhwkq5iyo28hn60cq6z0l7del8",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDoWGhduu8ZyDAzSNVAUtqV8e7apAvd_vfef6mA25rD1mQJM6uLAnX63SLSQ8oO-I7lVjXVsi5z1LuiD9r0VFme18P9O8jY8rf2wjY61xsiTy5GMIP1vTAzEcIIYD0RJRcNIGKCbkjisRv9GRwCinp_AAdCOOM:1wNqqQ:oYEu408CjEEou1x_EsWmIWoUwng4vfBe08jOYSnlJFA",
+    "expire_date": "2026-05-29T11:36:42.105Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xzmksomf5dv12rgbfhofpiqf97qch9ri",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wWZqB:3dFYp3fdSaSoZj5el7XMH_jf0z6HLsSDPwk2K8WRBpo",
+    "expire_date": "2026-06-22T13:16:31.847Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yxd2ctgzo25leabaavswcoirpha7ttbb",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGUh4JL9_0Gch8gVQNJaVfGf7dNutDVJHPOzFtEWJcS157mOLG4ikGcfjsEeqa6A35AvTdJrS7zhHJX5EG7HBun1-1w_w4K9LKtSblgLNsMjjWdjVOJFGZGJMwarWZyZIL2DjRccrDZh8GT24IxgxGfLwWuOPQ:1wWFdt:oiqkxDraqc_wALQnrcuMS1aTIINj6DDT3A774WnJquI",
+    "expire_date": "2026-06-21T15:42:29.894Z"
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 1,
+  "fields": {
+    "name": "CoolBreeze 1 Ton 3 Star Window AC",
+    "description": "Energy efficient 1 ton window AC with 3 star rating, auto restart, sleep mode and dust filter. Ideal for rooms up to 120 sq ft.",
+    "price": "28999.00",
+    "category": "Window AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 2,
+  "fields": {
+    "name": "CoolBreeze 1.5 Ton 3 Star Split AC",
+    "description": "1.5 ton split AC with 3 star rating, turbo cool technology, auto clean and dehumidifier function. Ideal for rooms up to 180 sq ft.",
+    "price": "34999.00",
+    "category": "Split AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 3,
+  "fields": {
+    "name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
+    "description": "Premium 1.5 ton inverter split AC with 5 star rating, wifi control, auto diagnosis and 4 way swing. Ideal for rooms up to 180 sq ft.",
+    "price": "42999.00",
+    "category": "Split AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 4,
+  "fields": {
+    "name": "CoolBreeze 2 Ton 3 Star Split AC",
+    "description": "Heavy duty 2 ton split AC with 3 star rating, rapid cooling, self cleaning filter and auto restart after power cut. Ideal for rooms up to 240 sq ft.",
+    "price": "45999.00",
+    "category": "Split AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 5,
+  "fields": {
+    "name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
+    "description": "Compact 1 ton inverter split AC with 5 star rating, voice control, pm 2.5 filter and weekly timer. Ideal for rooms up to 120 sq ft.",
+    "price": "38999.00",
+    "category": "Split AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 6,
+  "fields": {
+    "name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
+    "description": "Commercial grade 2 ton cassette AC with 5 star inverter rating, 360 degree airflow, central drain pump and remote diagnostics. Ideal for offices up to 300 sq ft.",
+    "price": "68999.00",
+    "category": "Cassette AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 7,
+  "fields": {
+    "name": "CoolBreeze 1.5 Ton Portable AC",
+    "description": "No installation required portable AC with 1.5 ton capacity, dual fan speed, dehumidifier mode and 24 hour timer. Ideal for temporary cooling needs.",
+    "price": "32999.00",
+    "category": "Portable AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 8,
+  "fields": {
+    "name": "CoolBreeze 2 Ton Tower AC",
+    "description": "Floor standing 2 ton tower AC with inverter technology, 7 speed fan, air purifier with HEPA filter and child lock. Ideal for large halls up to 280 sq ft.",
+    "price": "55999.00",
+    "category": "Tower AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 9,
+  "fields": {
+    "name": "CoolBreeze AC Voltage Stabilizer 5KVA",
+    "description": "Heavy duty voltage stabilizer for ACs up to 2 ton. Protects against voltage fluctuations between 90V to 290V with time delay and digital display.",
+    "price": "4999.00",
+    "category": "Accessories",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 10,
+  "fields": {
+    "name": "CoolBreeze Universal AC Remote Control",
+    "description": "Universal remote compatible with all CoolBreeze AC models. Features LCD display, timer, sleep mode and turbo button. Includes 2 AAA batteries.",
+    "price": "899.00",
+    "category": "Accessories",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "product": 3,
+    "product_name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
+    "amount": "42999.00",
+    "status": "dispatched",
+    "carrier": "BlueDart",
+    "tracking_number": "BD99281733",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-04-26T10:30:00Z",
+    "updated_at": "2025-04-26T10:30:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "product": 2,
+    "product_name": "CoolBreeze 1.5 Ton 3 Star Split AC",
+    "amount": "34999.00",
+    "status": "delivered",
+    "carrier": "Delhivery",
+    "tracking_number": "DL44729103",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-03-11T14:00:00Z",
+    "updated_at": "2025-03-11T14:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "product": 9,
+    "product_name": "CoolBreeze AC Voltage Stabilizer 5KVA",
+    "amount": "4999.00",
+    "status": "delivered",
+    "carrier": "Delhivery",
+    "tracking_number": "DL88103742",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-02-16T09:15:00Z",
+    "updated_at": "2025-02-16T09:15:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "user": 2,
+    "product": 10,
+    "product_name": "CoolBreeze Universal AC Remote Control",
+    "amount": "899.00",
+    "status": "cancelled",
+    "carrier": "",
+    "tracking_number": "",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-04-28T16:45:00Z",
+    "updated_at": "2025-04-28T16:45:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "product": 5,
+    "product_name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
+    "amount": "38999.00",
+    "status": "pending",
+    "carrier": "",
+    "tracking_number": "",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-04-30T20:00:00Z",
+    "updated_at": "2025-04-30T20:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 6,
+  "fields": {
+    "user": 3,
+    "product": 6,
+    "product_name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
+    "amount": "68999.00",
+    "status": "dispatched",
+    "carrier": "Ekart",
+    "tracking_number": "EK556612309",
+    "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
+    "created_at": "2025-04-27T11:00:00Z",
+    "updated_at": "2025-04-27T11:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 7,
+  "fields": {
+    "user": 3,
+    "product": 4,
+    "product_name": "CoolBreeze 2 Ton 3 Star Split AC",
+    "amount": "45999.00",
+    "status": "delivered",
+    "carrier": "BlueDart",
+    "tracking_number": "BD77412390",
+    "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
+    "created_at": "2025-03-01T08:30:00Z",
+    "updated_at": "2025-03-01T08:30:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 8,
+  "fields": {
+    "user": 4,
+    "product": 1,
+    "product_name": "CoolBreeze 1 Ton 3 Star Window AC",
+    "amount": "28999.00",
+    "status": "delivered",
+    "carrier": "Delhivery",
+    "tracking_number": "DL33219876",
+    "delivery": "23, Anna Salai, Teynampet, Chennai - 600018",
+    "created_at": "2025-03-15T13:20:00Z",
+    "updated_at": "2025-03-15T13:20:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 9,
+  "fields": {
+    "user": 4,
+    "product": 8,
+    "product_name": "CoolBreeze 2 Ton Tower AC",
+    "amount": "55999.00",
+    "status": "dispatched",
+    "carrier": "BlueDart",
+    "tracking_number": "BD10293847",
+    "delivery": "23, Anna Salai, Teynampet, Chennai - 600018",
+    "created_at": "2025-04-25T17:10:00Z",
+    "updated_at": "2025-04-25T17:10:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 10,
+  "fields": {
+    "user": 3,
+    "product": 7,
+    "product_name": "CoolBreeze 1.5 Ton Portable AC",
+    "amount": "32999.00",
+    "status": "pending",
+    "carrier": "",
+    "tracking_number": "",
+    "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
+    "created_at": "2025-05-01T10:00:00Z",
+    "updated_at": "2025-05-01T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 11,
+  "fields": {
+    "user": 5,
+    "product": 1,
+    "product_name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
+    "amount": "42999.00",
+    "status": "delivered",
+    "carrier": "BlueDart",
+    "tracking_number": "BD11111111",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-01-10T10:00:00Z",
+    "updated_at": "2025-01-10T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 12,
+  "fields": {
+    "user": 5,
+    "product": 2,
+    "product_name": "CoolBreeze 1.5 Ton 3 Star Split AC",
+    "amount": "34999.00",
+    "status": "delivered",
+    "carrier": "Delhivery",
+    "tracking_number": "DL22222222",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-02-05T10:00:00Z",
+    "updated_at": "2025-02-05T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 13,
+  "fields": {
+    "user": 5,
+    "product": 3,
+    "product_name": "CoolBreeze 2 Ton 3 Star Split AC",
+    "amount": "45999.00",
+    "status": "delivered",
+    "carrier": "BlueDart",
+    "tracking_number": "BD33333333",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-03-01T10:00:00Z",
+    "updated_at": "2025-03-01T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 14,
+  "fields": {
+    "user": 5,
+    "product": 4,
+    "product_name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
+    "amount": "38999.00",
+    "status": "delivered",
+    "carrier": "Ekart",
+    "tracking_number": "EK44444444",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-03-20T10:00:00Z",
+    "updated_at": "2025-03-20T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 15,
+  "fields": {
+    "user": 5,
+    "product": 5,
+    "product_name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
+    "amount": "68999.00",
+    "status": "delivered",
+    "carrier": "BlueDart",
+    "tracking_number": "BD55555555",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-04-10T10:00:00Z",
+    "updated_at": "2025-04-10T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 1,
+  "fields": {
+    "order": 3,
+    "user": 2,
+    "reason": "Stabilizer stopped working after 3 days. AC not turning on.",
+    "status": "approved",
+    "created_at": "2025-02-20T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "user": 2,
+    "reason": "AC is making loud noise during operation. Not acceptable.",
+    "status": "denied",
+    "created_at": "2025-03-20T14:30:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 3,
+  "fields": {
+    "order": 7,
+    "user": 3,
+    "reason": "AC not cooling properly even after installation by technician.",
+    "status": "approved",
+    "created_at": "2025-03-10T09:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 4,
+  "fields": {
+    "order": 8,
+    "user": 4,
+    "reason": "Window AC leaking water inside the room.",
+    "status": "pending",
+    "created_at": "2025-03-25T16:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 5,
+  "fields": {
+    "order": 1,
+    "user": 2,
+    "reason": "AC dispatched 5 days ago but not delivered yet. Want refund.",
+    "status": "pending",
+    "created_at": "2025-04-30T11:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 6,
+  "fields": {
+    "order": 11,
+    "user": 5,
+    "reason": "AC stopped working after 2 days",
+    "status": "approved",
+    "created_at": "2025-01-12T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 7,
+  "fields": {
+    "order": 11,
+    "user": 5,
+    "reason": "Wrong model delivered",
+    "status": "denied",
+    "created_at": "2025-01-20T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 8,
+  "fields": {
+    "order": 12,
+    "user": 5,
+    "reason": "AC making loud noise",
+    "status": "denied",
+    "created_at": "2025-02-08T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 9,
+  "fields": {
+    "order": 12,
+    "user": 5,
+    "reason": "Product not as described",
+    "status": "denied",
+    "created_at": "2025-02-15T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 10,
+  "fields": {
+    "order": 13,
+    "user": 5,
+    "reason": "AC not cooling properly",
+    "status": "approved",
+    "created_at": "2026-03-05T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 11,
+  "fields": {
+    "order": 14,
+    "user": 5,
+    "reason": "Received damaged product",
+    "status": "denied",
+    "created_at": "2025-03-25T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 12,
+  "fields": {
+    "order": 15,
+    "user": 5,
+    "reason": "AC compressor not working",
+    "status": "pending",
+    "created_at": "2026-04-12T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 13,
+  "fields": {
+    "order": 13,
+    "user": 5,
+    "reason": "Want to return — changed my mind",
+    "status": "denied",
+    "created_at": "2025-03-10T10:00:00Z"
+  }
+},
+{
+  "model": "support.conversation",
+  "pk": 24,
+  "fields": {
+    "user": 5,
+    "order": 13,
+    "created_at": "2026-06-02T11:57:37.902Z"
+  }
+},
+{
+  "model": "support.conversation",
+  "pk": 25,
+  "fields": {
+    "user": 2,
+    "order": 1,
+    "created_at": "2026-06-03T07:34:43.890Z"
+  }
+},
+{
+  "model": "support.conversation",
+  "pk": 26,
+  "fields": {
+    "user": 5,
+    "order": 12,
+    "created_at": "2026-06-09T09:43:58.441Z"
+  }
+},
+{
+  "model": "support.conversation",
+  "pk": 27,
+  "fields": {
+    "user": 5,
+    "order": 14,
+    "created_at": "2026-06-09T10:15:37.524Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 314,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "hi",
+    "created_at": "2026-06-02T11:57:37.904Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 315,
+  "fields": {
+    "conversation": 24,
+    "role": "assistant",
+    "content": "Hello, welcome to CoolBreeze AC support. I am Maya, and I am here to help you today.\n\nHow can I assist you with your order?",
+    "created_at": "2026-06-02T11:57:40.432Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 316,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "I want the refund, my product is not working",
+    "created_at": "2026-06-02T11:58:02.346Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 317,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "I want the refund, my product is not working",
+    "created_at": "2026-06-02T11:59:40.891Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 318,
+  "fields": {
+    "conversation": 24,
+    "role": "assistant",
+    "content": "I have heard back from my team and I need to be straightforward with you about the decision.\n\n**Your refund request has been denied.** Here is the reason:\n\n1. **A refund was already approved on this same order** (Order #13) in March 2026 for a similar complaint. Approving a second refund on the same product is not something we are able to do.\n\n2. **The order is 458 days old**, which is well outside our standard refund and return policy window.\n\nI understand this may be frustrating to hear, and I am sorry I am not able to give you a different answer. If you believe there has been a mistake or you have additional information that may help, you are welcome to reach out to us again with supporting details.\n\nIs there anything else I can help you with today?",
+    "created_at": "2026-06-02T12:00:31.642Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 319,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "Hey my order is not yet received",
+    "created_at": "2026-06-03T07:34:43.901Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 320,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "Thank you for reaching out. I can see the details for your order. Here is what I found:\n\n**Order Details**\n- Product: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\n- Order placed on: 26 Apr 2025\n- Carrier: BlueDart\n- Tracking Number: BD99281733\n\n**Current Delivery Status**\n- Status: In Transit\n- Last Location: Bangalore Sorting Hub\n- Last Updated: 2 days ago\n- Estimated Delivery: Tomorrow\n- Delay Reason: High volume at sorting facility\n\nYour order is on its way and is estimated to be delivered tomorrow. The delay is due to high volume at the sorting facility, which is beyond our control.\n\nI understand it can be frustrating to wait, especially for something as important as an AC. If your order does not arrive by tomorrow, please do reach out to us and we will look into it further.\n\nIs there anything else I can help you with?",
+    "created_at": "2026-06-03T07:34:53.815Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 323,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "can you tell me what is the status now?",
+    "created_at": "2026-06-06T08:27:16.397Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 324,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "The status is still showing as In Transit, last updated 2 days ago from the Bangalore Sorting Hub. The estimated delivery is still tomorrow, with the delay being due to high volume at the sorting facility. I understand this is frustrating and I apologize for the wait. If it does not arrive by tomorrow, please contact us and we will take further action.",
+    "created_at": "2026-06-06T08:27:25.610Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 325,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "What do you mean still tomorrow? Last time also you said it will be delivered by tomorrow.. its been 1 week since I talked to you last time..",
+    "created_at": "2026-06-06T08:28:09.941Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 326,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "I have great news for you. My manager has reviewed your case and approved a full refund of Rs. 42,999 for Order 1. The refund will be processed to your original payment method, and you should receive it shortly. I sincerely apologize for the extremely poor experience and the repeated false delivery promises you received. Is there anything else I can help you with?",
+    "created_at": "2026-06-06T08:29:03.347Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 327,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "what???? you wasted 1 year of my time",
+    "created_at": "2026-06-06T08:29:50.528Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 328,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "I am truly sorry for the year-long ordeal you have been through. I have just heard back from my manager and your refund of Rs. 42,999 has been approved and will be processed to your original payment method. We will also be raising a formal complaint against BlueDart for this failure. Again, I sincerely apologize for the repeated misinformation and the delay.",
+    "created_at": "2026-06-06T08:30:48.760Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 329,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "No I dont want refund, I will sue your company",
+    "created_at": "2026-06-06T08:31:25.665Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 330,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "I completely understand your anger, and you have every right to feel this way. Your order has been stuck for over 400 days and the tracking still shows the same message, which is completely unacceptable. I want to escalate this to my manager right away so the right action can be taken. Can I proceed with that?",
+    "created_at": "2026-06-06T08:31:33.523Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 331,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "yes",
+    "created_at": "2026-06-06T08:31:47.312Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 332,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "I have escalated your case and my manager has reviewed it. I completely understand that you want delivery and not a refund, and that is completely valid after 405 days of waiting. My manager will be reaching out to you directly with a formal resolution and a written apology. We are also filing a formal dispute with BlueDart regarding this shipment. I am truly sorry for the way this has been handled.",
+    "created_at": "2026-06-06T08:32:44.079Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 333,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "hey",
+    "created_at": "2026-06-08T13:10:48.476Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 334,
+  "fields": {
+    "conversation": 24,
+    "role": "assistant",
+    "content": "I have heard back from my team and unfortunately your refund request for Order 13 has been denied. A refund was already approved on this same order back in March 2026, so a second refund on the same product cannot be processed. The order is also 464 days old, which is outside our policy window.\n\nIf you have any other concerns, I am here to help.",
+    "created_at": "2026-06-08T13:11:33.208Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 335,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "hello",
+    "created_at": "2026-06-08T13:30:13.171Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 336,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "Hello, I am here. Your order is still showing as dispatched with BlueDart and it has now been 408 days since you placed the order. I understand your case has already been escalated to our manager. Is there any update you have received, or is there anything else I can help you with?",
+    "created_at": "2026-06-08T13:30:18.912Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 337,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "hello",
+    "created_at": "2026-06-08T15:46:55.101Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 338,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "Hello, I am still here. Is there anything I can help you with regarding your order?",
+    "created_at": "2026-06-08T15:46:57.371Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 339,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "I am waiting for the refund",
+    "created_at": "2026-06-08T16:00:37.156Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 340,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "I have great news. My manager has approved a full refund of Rs. 42,999 for your order. The amount will be processed to your original payment method and you should receive it shortly. I sincerely apologize for the extremely long wait and the inconvenience this has caused you.",
+    "created_at": "2026-06-08T16:01:22.453Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 341,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "Please give me refund",
+    "created_at": "2026-06-08T16:12:54.851Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 342,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "I have great news. My manager has approved your refund of Rs. 42,999. The amount will be processed to your original payment method shortly. I sincerely apologize for the extremely long wait and the poor experience you have had with us.",
+    "created_at": "2026-06-08T16:13:37.188Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 343,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "I want the refund now",
+    "created_at": "2026-06-08T16:15:29.251Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 344,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "I have great news. My manager has reviewed your case and approved a full refund of Rs. 42,999. The amount will be processed to your original payment method and you will also receive a formal apology from us. I am truly sorry for the 408 days of waiting and the poor experience you have had with us.",
+    "created_at": "2026-06-08T16:16:16.676Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 345,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "can you please give me the refund now",
+    "created_at": "2026-06-08T16:27:44.645Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 346,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "I have great news. My manager has reviewed your case and approved the refund of Rs. 42,999 for your order. The refund will be processed to your original payment method shortly. I sincerely apologize for the 408 days of waiting and the inconvenience this has caused you.",
+    "created_at": "2026-06-08T16:28:23.479Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 347,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "Hello",
+    "created_at": "2026-06-09T09:43:58.443Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 348,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "Hello! Welcome to CoolBreeze AC support. I am Maya, and I am here to help you today. How can I assist you?",
+    "created_at": "2026-06-09T09:44:01.351Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 349,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "My ac is making noise I need help",
+    "created_at": "2026-06-09T09:44:22.344Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 350,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "I can see your CoolBreeze 1.5 Ton 3 Star Split AC was delivered to your address in Pune. Since the unit is making noise, could you describe the type of noise a bit more? For example, is it a rattling, humming, or grinding sound, and does it happen when the AC starts up or continuously while running? This will help me guide you better.",
+    "created_at": "2026-06-09T09:44:28.529Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 351,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "I want refund",
+    "created_at": "2026-06-09T09:45:39.191Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 352,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "I heard back from my team and unfortunately the refund request has been denied. The order was delivered over 488 days ago which is well outside our refund policy window, and this is also the third refund request raised on this same order. No further refund requests on Order 12 will be entertained.\n\nIf the AC is still under warranty, I would recommend reaching out to our service team for a technician visit to address the noise issue. Would you like help with that?",
+    "created_at": "2026-06-09T09:46:21.357Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 353,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "No, I want the refund right now",
+    "created_at": "2026-06-09T09:52:54.835Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 354,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "I have checked with my team and I have their decision. Unfortunately, the refund for Order 12 has been denied. This order was placed over 488 days ago which is well outside our refund policy window, and this is the third refund request raised for this same order.\n\nIf the AC noise is still a concern, I can help you raise a service request for a technician visit under warranty. Would you like me to help with that instead?",
+    "created_at": "2026-06-09T09:53:35.070Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 355,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "Hey please give me refund",
+    "created_at": "2026-06-09T09:54:20.523Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 356,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "I have received the decision from my manager and unfortunately the refund for Order 12 has been denied. The order is 488 days old which is well beyond our refund policy, and this is the third refund request for the same order with no new grounds to reverse the earlier decisions.\n\nIf the AC noise issue is still ongoing, I would suggest raising a service request for a technician visit. Is there anything else I can help you with?",
+    "created_at": "2026-06-09T09:55:02.630Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 357,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "Hey please",
+    "created_at": "2026-06-09T09:56:52.559Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 358,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "I completely understand your frustration, and I am sorry you are going through this. However, I am unable to approve a refund for this order as the decision has already been made by my manager. The order is too old and this is the third refund request for the same order.\n\nWhat I can do is help you get a technician to look at the noise issue. Would you like me to arrange that for you?",
+    "created_at": "2026-06-09T09:56:55.933Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 359,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "talk to your manager again",
+    "created_at": "2026-06-09T09:57:37.637Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 360,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "I have spoken with my manager again and the refund for Order 12 has been denied for the final time. This is the third request for the same order and the order is 488 days old with no new grounds provided for reconsideration.\n\nI strongly suggest we focus on resolving the noise issue through a technician visit instead. Would you like me to help arrange that?",
+    "created_at": "2026-06-09T09:58:14.712Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 361,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "I want the refund fast, or I will sue your company",
+    "created_at": "2026-06-09T10:15:02.097Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 362,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "I understand you are upset and I take your concern seriously. However, the refund decision has been made by my manager and I am not in a position to override it. The order is 488 days old and this is the third refund request for the same order.\n\nYou are welcome to pursue any legal channels available to you. In the meantime, if you would like help with a technician visit for the noise issue, I am here to assist.",
+    "created_at": "2026-06-09T10:15:05.368Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 363,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "hey",
+    "created_at": "2026-06-09T10:15:37.525Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 364,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "Hey there! Welcome to CoolBreeze AC support. I am Maya, happy to help you today. What seems to be the issue?",
+    "created_at": "2026-06-09T10:15:39.582Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 365,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "My ac is not working please help",
+    "created_at": "2026-06-09T10:15:54.411Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 366,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "I can see your order for the CoolBreeze 1 Ton 5 Star Inverter Split AC was delivered to your address in Pune. Can you tell me more about the issue you are facing with the AC? For example, is it not turning on, not cooling, or something else?",
+    "created_at": "2026-06-09T10:16:00.385Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 367,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "Is this product under warranty?",
+    "created_at": "2026-06-09T10:18:18.845Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 368,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "Your order was placed on March 20, 2025, which is about 446 days ago. Warranty terms depend on the specific warranty period for your product, and for most AC units it is typically 1 year for the product and longer for the compressor. Since it has been over a year, the standard 1 year product warranty may have expired, but the compressor warranty could still be valid. I would recommend checking the warranty card that came with your AC or contacting the manufacturer directly for confirmation.",
+    "created_at": "2026-06-09T10:18:25.391Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 369,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "can you please give me the refund",
+    "created_at": "2026-06-09T10:18:53.415Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 370,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "I have received a response from my team. Unfortunately, the refund request for Order 14 has been denied. The main reasons are that the product is over 446 days old and falls outside the standard warranty period, and a refund was already denied for this same order earlier. I understand this is not the news you were hoping for, and I am sorry for the inconvenience. If the AC is malfunctioning, I would suggest reaching out to an authorized service center for a paid repair assessment.",
+    "created_at": "2026-06-09T10:19:32.867Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 371,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "please give me refund",
+    "created_at": "2026-06-09T10:19:44.899Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 372,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "I have heard back from my manager and unfortunately the refund for Order 14 has been denied. The product is 446 days old and outside the standard warranty window, and a refund for this same order was already reviewed and denied previously. I am sorry I cannot do more on this, but I would recommend visiting an authorized service center for a paid repair.",
+    "created_at": "2026-06-09T10:20:23.330Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 373,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "Your staff contacted me and promised me to give refund",
+    "created_at": "2026-06-09T10:22:55.414Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 374,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "I have checked with my team and the refund for Order 14 has been denied. The claim about a staff promise could not be verified as there are no internal records supporting it. I am sorry, but we are unable to process a refund in this case. If you have any written communication or proof of the promise made, I would suggest sharing that with us so we can investigate further.",
+    "created_at": "2026-06-09T10:23:38.778Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 375,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "Please give me refund",
+    "created_at": "2026-06-09T13:15:19.372Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 376,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "I have the manager's decision and unfortunately the refund for Order 14 has been denied. The product is outside the warranty period, a refund for this same order was already denied before, and the staff promise you mentioned could not be verified in our system. I am sorry I was unable to help further on this, but if you have any written proof of the promise made, please do share it and we can look into it again.",
+    "created_at": "2026-06-09T13:16:04.845Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 377,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "please talk to your manager and tell me your final decision",
+    "created_at": "2026-06-09T13:41:07.457Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 378,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "I have spoken to my manager and have a final decision for you. The refund for Order 14 has been denied. The reasons are that the product is 446 days old and outside the return window, a refund for this same order was already denied before, and the staff promise you mentioned could not be verified without any written proof. I am sorry but this is the final decision and we are unable to take this further.",
+    "created_at": "2026-06-09T13:41:55.175Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 1,
+  "fields": {
+    "conversation": 24,
+    "event_type": "final",
+    "message": "Hello, welcome to CoolBreeze AC support. I am Maya, and I am here to help you today.\n\nHow can I assist you with your order?",
+    "created_at": "2026-06-02T11:57:40.430Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 2,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 13}",
+    "created_at": "2026-06-02T11:58:05.613Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 3,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 13, 'product_name': 'CoolBreeze 2 Ton 3 Star Split AC', 'amount': '45999.00', 'status': 'delivered', 'carrier': 'BlueDart', 'tracking_number': 'BD33333333', 'delivery_address': '22, MG Ro",
+    "created_at": "2026-06-02T11:58:05.615Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 4,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-02T11:58:05.617Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 5,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-02T11:58:05.624Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 6,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\n- Order ID: 13\\n- Product: CoolBreeze 2 Ton 3 Star Split AC\\n- Amount: Rs. 45,999\\n- Order Date: 01 March 2025\\n- Days Since Order: 458\\n- Status: Delivered\\n- Carrier: BlueDart, Tracking: BD33333333\\n- Delivery Address: 22, MG Road, Pune - 411001\\n\\nCurrent Complaint:\\nCustomer is requesting a refund stating the product is not working.\\n\\nRefund History on Order #13:\\n1. Requested 05 Mar 2026 - Reason: AC not cooling properly - Status: Approved\\n2. Requested 10 Mar 2025 - Reason: Want to return, changed my mind - Status: Denied\\n\\nOverall Refund History:\\n- Total refund requests across account: 8\\n- Approved: 2, Denied: 5, Pending: 1\\n- Multiple refund requests on same orders (Order #11, #12, #13)\\n- Current request is the 3rd refund request on Order #13, placed 458 days ago\\n\\nNote: High refund request frequency and repeated requests on the same order warrant manager review before any decision is made.'}",
+    "created_at": "2026-06-02T11:58:16.120Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 7,
+  "fields": {
+    "conversation": 24,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\n- Order ID: 13\n- Product: CoolBreeze 2 Ton 3 Star Split AC\n- Amount: Rs. 45,999\n- Order Date: 01 March 2025\n- Days Since Order: 458\n- Status: Delivered\n- Carrier: B",
+    "created_at": "2026-06-02T11:58:16.124Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 8,
+  "fields": {
+    "conversation": 24,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-02T11:58:19.404Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 9,
+  "fields": {
+    "conversation": 24,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-02T11:58:19.407Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 10,
+  "fields": {
+    "conversation": 24,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-02T11:58:22.407Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 11,
+  "fields": {
+    "conversation": 24,
+    "event_type": "risk",
+    "message": "Verdict: I have the data. Here is my full risk assessment for user ID 5:\n\n---\n\n### 🔴 Risk Level: HIGH\n\n---\n\n### 🔍 Key Signals\n\n| Signal | Detail |\n|---|---|\n| **Refund-to-Order Ratio** | **1.6** — This means t",
+    "created_at": "2026-06-02T11:58:33.669Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 12,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 13}",
+    "created_at": "2026-06-02T11:59:44.358Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 13,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 13, 'product_name': 'CoolBreeze 2 Ton 3 Star Split AC', 'amount': '45999.00', 'status': 'delivered', 'carrier': 'BlueDart', 'tracking_number': 'BD33333333', 'delivery_address': '22, MG Ro",
+    "created_at": "2026-06-02T11:59:44.361Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 14,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-02T11:59:44.363Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 15,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-02T11:59:44.371Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 16,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': \"Customer User ID: 5\\n\\nOrder Details:\\n- Order ID: 13\\n- Product: CoolBreeze 2 Ton 3 Star Split AC\\n- Amount: Rs. 45,999\\n- Order Date: 01 March 2025 (458 days ago)\\n- Status: Delivered\\n- Carrier: BlueDart, Tracking: BD33333333\\n- Delivery Address: 22, MG Road, Pune - 411001\\n\\nCustomer Complaint:\\nCustomer is requesting a refund stating the product is not working.\\n\\nRefund History on This Order (Order #13):\\n1. Requested: 10 Mar 2025 | Reason: Want to return — changed my mind | Status: Denied\\n2. Requested: 05 Mar 2026 | Reason: AC not cooling properly | Status: Approved\\n\\nThis is the 3rd refund request on Order #13 and the customer's 9th overall refund request across multiple orders. Overall refund history shows 8 prior requests, with only 2 approved and 6 denied across orders 11, 12, 13, 14, and 15.\\n\\nManager review is requested to assess fraud risk and make a refund decision.\"}",
+    "created_at": "2026-06-02T11:59:54.363Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 17,
+  "fields": {
+    "conversation": 24,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\n- Order ID: 13\n- Product: CoolBreeze 2 Ton 3 Star Split AC\n- Amount: Rs. 45,999\n- Order Date: 01 March 2025 (458 days ago)\n- Status: Delivered\n- Carrier: BlueDart, ",
+    "created_at": "2026-06-02T11:59:54.366Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 18,
+  "fields": {
+    "conversation": 24,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-02T11:59:58.355Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 19,
+  "fields": {
+    "conversation": 24,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-02T11:59:58.358Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 20,
+  "fields": {
+    "conversation": 24,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-02T12:00:01.122Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 21,
+  "fields": {
+    "conversation": 24,
+    "event_type": "risk",
+    "message": "Verdict: I've retrieved the profile. Here is my full risk assessment:\n\n---\n\n### 🔴 Risk Level: HIGH\n\n---\n\n### 🔍 Key Signals\n\n| Metric | Value | Observation |\n|---|---|---|\n| Total Orders | 5 | Very low order vo",
+    "created_at": "2026-06-02T12:00:12.694Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 22,
+  "fields": {
+    "conversation": 24,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 📋 Manager Review — Final Refund Decision\n\n### 🔴 Decision: ESCALATE TO RISK TEAM & DENY REFUND\n\n---\n\n### Case Summary Assessment\n\n| Factor | Detail |\n|---|---|\n| **Order Age** | 458 days — **we",
+    "created_at": "2026-06-02T12:00:26.414Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 23,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 📋 Manager Review — Final Refund Decision\n\n### 🔴 Decision: ESCALATE TO RISK TEAM & DENY REFUND\n\n---\n\n### Case Summary Assessment\n\n| Factor | Detail |\n|---|---|\n| **Order Age** | 458 days — **we",
+    "created_at": "2026-06-02T12:00:26.416Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 24,
+  "fields": {
+    "conversation": 24,
+    "event_type": "final",
+    "message": "I have heard back from my team and I need to be straightforward with you about the decision.\n\n**Your refund request has been denied.** Here is the reason:\n\n1. **A refund was already approved on this same order** (Order #13) in March 2026 for a similar complaint. Approving a second refund on the same product is not something we are able to do.\n\n2. **The order is 458 days old**, which is well outside our standard refund and return policy window.\n\nI understand this may be frustrating to hear, and I am sorry I am not able to give you a different answer. If you believe there has been a mistake or you have additional information that may help, you are welcome to reach out to us again with supporting details.\n\nIs there anything else I can help you with today?",
+    "created_at": "2026-06-02T12:00:31.640Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 25,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-03T07:34:46.513Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 26,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-03T07:34:46.516Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 27,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool check_delivery_status with {'tracking_number': 'BD99281733', 'carrier': 'BlueDart'}",
+    "created_at": "2026-06-03T07:34:48.748Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 28,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "check_delivery_status returned: {'status': 'In Transit', 'last_location': 'Bangalore Sorting Hub', 'last_update': '2 days ago', 'estimated_delivery': 'Tomorrow', 'delay_reason': 'High volume at sorting facility', 'tracking_number': ",
+    "created_at": "2026-06-03T07:34:48.749Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 29,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "Thank you for reaching out. I can see the details for your order. Here is what I found:\n\n**Order Details**\n- Product: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\n- Order placed on: 26 Apr 2025\n- Carrier: BlueDart\n- Tracking Number: BD99281733\n\n**Current Delivery Status**\n- Status: In Transit\n- Last Location: Bangalore Sorting Hub\n- Last Updated: 2 days ago\n- Estimated Delivery: Tomorrow\n- Delay Reason: High volume at sorting facility\n\nYour order is on its way and is estimated to be delivered tomorrow. The delay is due to high volume at the sorting facility, which is beyond our control.\n\nI understand it can be frustrating to wait, especially for something as important as an AC. If your order does not arrive by tomorrow, please do reach out to us and we will look into it further.\n\nIs there anything else I can help you with?",
+    "created_at": "2026-06-03T07:34:53.813Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 30,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-06T08:27:19.059Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 31,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-06T08:27:19.064Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 32,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool check_delivery_status with {'tracking_number': 'BD99281733', 'carrier': 'BlueDart'}",
+    "created_at": "2026-06-06T08:27:21.076Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 33,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "check_delivery_status returned: {'status': 'In Transit', 'last_location': 'Bangalore Sorting Hub', 'last_update': '2 days ago', 'estimated_delivery': 'Tomorrow', 'delay_reason': 'High volume at sorting facility', 'tracking_number': ",
+    "created_at": "2026-06-06T08:27:21.080Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 34,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "The status is still showing as In Transit, last updated 2 days ago from the Bangalore Sorting Hub. The estimated delivery is still tomorrow, with the delay being due to high volume at the sorting facility. I understand this is frustrating and I apologize for the wait. If it does not arrive by tomorrow, please contact us and we will take further action.",
+    "created_at": "2026-06-06T08:27:25.608Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 35,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-06T08:28:13.528Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 36,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-06T08:28:13.532Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 37,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool check_delivery_status with {'tracking_number': 'BD99281733', 'carrier': 'BlueDart'}",
+    "created_at": "2026-06-06T08:28:15.502Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 38,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "check_delivery_status returned: {'status': 'In Transit', 'last_location': 'Bangalore Sorting Hub', 'last_update': '2 days ago', 'estimated_delivery': 'Tomorrow', 'delay_reason': 'High volume at sorting facility', 'tracking_number': ",
+    "created_at": "2026-06-06T08:28:15.504Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 39,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 2}",
+    "created_at": "2026-06-06T08:28:19.409Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 40,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 3, 'history': [{'order_id': 1, 'product': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'reason': 'AC dispatched 5 days ago but not delivered yet. Want refund.', 'status': '",
+    "created_at": "2026-06-06T08:28:19.419Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 41,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 2\\n\\nOrder ID: 1\\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\\nOrder Amount: Rs. 42999\\nOrdered On: 26 April 2025\\nDays Since Order: 405 days\\nStatus: Dispatched (never delivered)\\nCarrier: BlueDart\\nTracking Number: BD99281733\\nLast Known Location: Bangalore Sorting Hub (last updated 2 days ago)\\nDelivery Address: 14, Residency Road, Shivajinagar, Bangalore - 560025\\n\\nCustomer Complaint: Order placed over 400 days ago and never delivered. Tracking has been stuck at Bangalore Sorting Hub. Customer has been told delivery would be \"tomorrow\" repeatedly over at least a week.\\n\\nRefund History:\\n1. Order 1 - Same product - Refund requested on 30 Apr 2025 for non-delivery - Status: Pending\\n2. Order 2 - CoolBreeze 1.5 Ton 3 Star Split AC - Refund requested 20 Mar 2025 for loud noise - Status: Denied\\n3. Order 3 - CoolBreeze AC Voltage Stabilizer 5KVA - Refund requested 20 Feb 2025 for product failure - Status: Approved\\n\\nAction Required: Urgent resolution needed. Either arrange delivery immediately or process a full refund of Rs. 42999 for Order ID 1.'}",
+    "created_at": "2026-06-06T08:28:27.250Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 42,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 2\n\nOrder ID: 1\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\nOrder Amount: Rs. 42999\nOrdered On: 26 April 2025\nDays Since Order: 405 days\nStatus: Dispatched (never delivered)\n",
+    "created_at": "2026-06-06T08:28:27.252Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 43,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-06T08:28:30.735Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 44,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 2",
+    "created_at": "2026-06-06T08:28:30.740Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 45,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-06T08:28:32.777Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 46,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Verdict: Got the data. Here's my full risk assessment:\n\n---\n\n**🔎 Fraud Risk Assessment — User ID 2**\n\n---\n\n**Risk Level: MEDIUM ⚠️**\n\n---\n\n**Key Signals:**\n\n| Signal | Detail |\n|---|---|\n| **Refund-to-Order Ra",
+    "created_at": "2026-06-06T08:28:45.681Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 47,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Decision: Thank you for the risk report. Here is my final decision after reviewing the full case.\n\n---\n\n## ✅ Refund Decision: **APPROVED — Full Refund of Rs. 42,999**\n\n---\n\n### 📋 Case Summary & Rationale\n\n**Ord",
+    "created_at": "2026-06-06T08:29:00.324Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 48,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: Thank you for the risk report. Here is my final decision after reviewing the full case.\n\n---\n\n## ✅ Refund Decision: **APPROVED — Full Refund of Rs. 42,999**\n\n---\n\n### 📋 Case Summary & Rationale\n\n**Ord",
+    "created_at": "2026-06-06T08:29:00.328Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 49,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "I have great news for you. My manager has reviewed your case and approved a full refund of Rs. 42,999 for Order 1. The refund will be processed to your original payment method, and you should receive it shortly. I sincerely apologize for the extremely poor experience and the repeated false delivery promises you received. Is there anything else I can help you with?",
+    "created_at": "2026-06-06T08:29:03.346Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 50,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-06T08:29:52.938Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 51,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-06T08:29:52.941Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 52,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool check_delivery_status with {'tracking_number': 'BD99281733', 'carrier': 'BlueDart'}",
+    "created_at": "2026-06-06T08:29:55.011Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 53,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "check_delivery_status returned: {'status': 'In Transit', 'last_location': 'Bangalore Sorting Hub', 'last_update': '2 days ago', 'estimated_delivery': 'Tomorrow', 'delay_reason': 'High volume at sorting facility', 'tracking_number': ",
+    "created_at": "2026-06-06T08:29:55.019Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 54,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 2}",
+    "created_at": "2026-06-06T08:29:59.500Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 55,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 3, 'history': [{'order_id': 1, 'product': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'reason': 'AC dispatched 5 days ago but not delivered yet. Want refund.', 'status': '",
+    "created_at": "2026-06-06T08:29:59.515Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 56,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 2\\n\\nOrder ID: 1\\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\\nOrder Amount: Rs. 42,999\\nOrdered On: 26 Apr 2025\\nDays Since Order: 405 days\\nStatus: Dispatched but never delivered\\nCarrier: BlueDart\\nTracking Number: BD99281733\\nDelivery Address: 14, Residency Road, Shivajinagar, Bangalore - 560025\\n\\nDelivery Status: In Transit since order date, stuck at Bangalore Sorting Hub, last updated 2 days ago. Estimated delivery keeps showing \"Tomorrow\" without any actual delivery.\\n\\nCustomer Complaint: Customer has been waiting for over 400 days. Was repeatedly told delivery would be \"tomorrow.\" Customer is extremely frustrated and requesting a refund.\\n\\nRefund History:\\n- Order 1 (this order): Refund requested on 30 Apr 2025, status: Pending\\n- Order 2: Refund requested on 20 Mar 2025, status: Denied (loud noise complaint)\\n- Order 3: Refund requested on 20 Feb 2025, status: Approved (stabilizer stopped working)\\n\\nTotal refund requests: 3. One prior approved refund, one denied, and this current pending request.'}",
+    "created_at": "2026-06-06T08:30:12.361Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 57,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 2\n\nOrder ID: 1\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\nOrder Amount: Rs. 42,999\nOrdered On: 26 Apr 2025\nDays Since Order: 405 days\nStatus: Dispatched but never delivered",
+    "created_at": "2026-06-06T08:30:12.363Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 58,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-06T08:30:15.690Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 59,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 2",
+    "created_at": "2026-06-06T08:30:15.694Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 60,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-06T08:30:17.945Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 61,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Verdict: Got the data. Here's my full risk assessment for user ID 2:\n\n---\n\n**🟡 Risk Level: MEDIUM**\n\n---\n\n**📊 Key Signals:**\n\n| Metric | Value |\n|---|---|\n| Total Orders | 5 |\n| Total Refund Requests | 3 |\n| R",
+    "created_at": "2026-06-06T08:30:29.707Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 62,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 📋 Refund Decision — Order ID: 1 | Customer User ID: 2\n\n---\n\n### ✅ Decision: **REFUND APPROVED — Rs. 42,999**\n\n---\n\n### 🔍 Rationale\n\n**Primary Reason — Clear Logistics Failure on CoolBreeze's P",
+    "created_at": "2026-06-06T08:30:44.981Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 63,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 📋 Refund Decision — Order ID: 1 | Customer User ID: 2\n\n---\n\n### ✅ Decision: **REFUND APPROVED — Rs. 42,999**\n\n---\n\n### 🔍 Rationale\n\n**Primary Reason — Clear Logistics Failure on CoolBreeze's P",
+    "created_at": "2026-06-06T08:30:44.984Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 64,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "I am truly sorry for the year-long ordeal you have been through. I have just heard back from my manager and your refund of Rs. 42,999 has been approved and will be processed to your original payment method. We will also be raising a formal complaint against BlueDart for this failure. Again, I sincerely apologize for the repeated misinformation and the delay.",
+    "created_at": "2026-06-06T08:30:48.758Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 65,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-06T08:31:28.149Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 66,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-06T08:31:28.155Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 67,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool check_delivery_status with {'tracking_number': 'BD99281733', 'carrier': 'BlueDart'}",
+    "created_at": "2026-06-06T08:31:30.505Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 68,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "check_delivery_status returned: {'status': 'In Transit', 'last_location': 'Bangalore Sorting Hub', 'last_update': '2 days ago', 'estimated_delivery': 'Tomorrow', 'delay_reason': 'High volume at sorting facility', 'tracking_number': ",
+    "created_at": "2026-06-06T08:31:30.508Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 69,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "I completely understand your anger, and you have every right to feel this way. Your order has been stuck for over 400 days and the tracking still shows the same message, which is completely unacceptable. I want to escalate this to my manager right away so the right action can be taken. Can I proceed with that?",
+    "created_at": "2026-06-06T08:31:33.519Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 70,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-06T08:31:52.242Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 71,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-06T08:31:52.247Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 72,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 2}",
+    "created_at": "2026-06-06T08:31:52.248Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 73,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 3, 'history': [{'order_id': 1, 'product': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'reason': 'AC dispatched 5 days ago but not delivered yet. Want refund.', 'status': '",
+    "created_at": "2026-06-06T08:31:52.253Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 74,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 2\\n\\nOrder Details:\\nOrder ID: 1\\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\\nAmount: Rs. 42,999\\nOrder Date: 26 Apr 2025\\nDays Since Order: 405 days\\nStatus: Dispatched but never delivered\\nCarrier: BlueDart\\nTracking Number: BD99281733\\nDelivery Address: 14, Residency Road, Shivajinagar, Bangalore - 560025\\n\\nRefund History:\\n1. Order 1 - Refund requested on 30 Apr 2025 for non-delivery. Status: Pending.\\n2. Order 2 - Refund requested on 20 Mar 2025 for loud noise. Status: Denied.\\n3. Order 3 - Refund requested on 20 Feb 2025 for stabilizer malfunction. Status: Approved.\\n\\nComplaint:\\nCustomer has not received their AC order for over 400 days. Tracking still shows the order as in transit at Bangalore Sorting Hub. Customer has been repeatedly told delivery is expected tomorrow. Customer is extremely upset and is threatening legal action. Customer does not want a refund at this stage and wants the matter escalated. Immediate attention and resolution required.'}",
+    "created_at": "2026-06-06T08:32:00.449Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 75,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 2\n\nOrder Details:\nOrder ID: 1\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\nAmount: Rs. 42,999\nOrder Date: 26 Apr 2025\nDays Since Order: 405 days\nStatus: Dispatched but never ",
+    "created_at": "2026-06-06T08:32:00.454Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 76,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-06T08:32:02.497Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 77,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 2",
+    "created_at": "2026-06-06T08:32:02.501Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 78,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-06T08:32:04.983Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 79,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Verdict: Got the data. Here's my full risk assessment:\n\n---\n\n**🟡 Risk Level: MEDIUM**\n\n---\n\n**📊 Key Signals:**\n\n| Metric | Value | Notes |\n|---|---|---|\n| Total Orders | 5 | Small order history |\n| Total Refun",
+    "created_at": "2026-06-06T08:32:19.697Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 80,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Decision: ## 📋 Senior Manager Review — Case Decision\n\n---\n\n### 🔍 Case Summary & Risk Assessment\n\n| Factor | Detail |\n|---|---|\n| **Customer** | User ID: 2 |\n| **Order** | Order #1 — CoolBreeze 1.5 Ton 5 Star In",
+    "created_at": "2026-06-06T08:32:34.651Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 81,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ## 📋 Senior Manager Review — Case Decision\n\n---\n\n### 🔍 Case Summary & Risk Assessment\n\n| Factor | Detail |\n|---|---|\n| **Customer** | User ID: 2 |\n| **Order** | Order #1 — CoolBreeze 1.5 Ton 5 Star In",
+    "created_at": "2026-06-06T08:32:34.655Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 82,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "I have escalated your case and my manager has reviewed it. I completely understand that you want delivery and not a refund, and that is completely valid after 405 days of waiting. My manager will be reaching out to you directly with a formal resolution and a written apology. We are also filing a formal dispute with BlueDart regarding this shipment. I am truly sorry for the way this has been handled.",
+    "created_at": "2026-06-06T08:32:44.076Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 83,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 13}",
+    "created_at": "2026-06-08T13:10:52.398Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 84,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 13, 'product_name': 'CoolBreeze 2 Ton 3 Star Split AC', 'amount': '45999.00', 'status': 'delivered', 'carrier': 'BlueDart', 'tracking_number': 'BD33333333', 'delivery_address': '22, MG Ro",
+    "created_at": "2026-06-08T13:10:52.402Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 85,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-08T13:10:52.403Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 86,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-08T13:10:52.415Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 87,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 13\\nProduct: CoolBreeze 2 Ton 3 Star Split AC\\nAmount: Rs. 45,999\\nStatus: Delivered\\nOrdered On: 01 Mar 2025\\nDays Since Order: 464\\nCarrier: BlueDart\\nTracking Number: BD33333333\\nDelivery Address: 22, MG Road, Pune - 411001\\n\\nCustomer Complaint:\\nCustomer is requesting a refund stating the product is not working.\\n\\nRefund History on Order 13:\\n1. Requested on 10 Mar 2025 - Reason: Want to return, changed my mind - Status: Denied\\n2. Requested on 05 Mar 2026 - Reason: AC not cooling properly - Status: Approved\\n\\nOverall Refund History:\\nCustomer has made 8 total refund requests across multiple orders. Two refunds have been approved (Order 11 and Order 13). Multiple requests have been denied. There is currently a pending refund request on Order 15 as well.\\n\\nThis is the third refund request on Order 13 and a second approval request on the same order. Manager review needed given high refund request volume and prior approval on this same order.'}",
+    "created_at": "2026-06-08T13:11:02.098Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 88,
+  "fields": {
+    "conversation": 24,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 13\nProduct: CoolBreeze 2 Ton 3 Star Split AC\nAmount: Rs. 45,999\nStatus: Delivered\nOrdered On: 01 Mar 2025\nDays Since Order: 464\nCarrier: BlueDart\nTracking",
+    "created_at": "2026-06-08T13:11:02.103Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 89,
+  "fields": {
+    "conversation": 24,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-08T13:11:04.451Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 90,
+  "fields": {
+    "conversation": 24,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-08T13:11:04.455Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 91,
+  "fields": {
+    "conversation": 24,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-08T13:11:06.595Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 92,
+  "fields": {
+    "conversation": 24,
+    "event_type": "risk",
+    "message": "Verdict: I've retrieved the profile. Here is my full fraud risk assessment:\n\n---\n\n### 🔴 Risk Level: HIGH\n\n---\n\n### 🔍 Key Signals\n\n| Signal | Detail |\n|---|---|\n| **Refund-to-Order Ratio** | **1.6** — This cust",
+    "created_at": "2026-06-08T13:11:17.251Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 93,
+  "fields": {
+    "conversation": 24,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 🔴 Refund Decision: DENIED\n\n---\n\n### 📋 Case Summary Review\n\n| Field | Detail |\n|---|---|\n| **Order ID** | 13 |\n| **Product** | CoolBreeze 2 Ton 3 Star Split AC |\n| **Amount** | Rs. 45,999 |\n| *",
+    "created_at": "2026-06-08T13:11:29.229Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 94,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 🔴 Refund Decision: DENIED\n\n---\n\n### 📋 Case Summary Review\n\n| Field | Detail |\n|---|---|\n| **Order ID** | 13 |\n| **Product** | CoolBreeze 2 Ton 3 Star Split AC |\n| **Amount** | Rs. 45,999 |\n| *",
+    "created_at": "2026-06-08T13:11:29.232Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 95,
+  "fields": {
+    "conversation": 24,
+    "event_type": "final",
+    "message": "I have heard back from my team and unfortunately your refund request for Order 13 has been denied. A refund was already approved on this same order back in March 2026, so a second refund on the same product cannot be processed. The order is also 464 days old, which is outside our policy window.\n\nIf you have any other concerns, I am here to help.",
+    "created_at": "2026-06-08T13:11:33.204Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 96,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-08T13:30:15.763Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 97,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-08T13:30:15.767Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 98,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "Hello, I am here. Your order is still showing as dispatched with BlueDart and it has now been 408 days since you placed the order. I understand your case has already been escalated to our manager. Is there any update you have received, or is there anything else I can help you with?",
+    "created_at": "2026-06-08T13:30:18.909Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 99,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "Hello, I am still here. Is there anything I can help you with regarding your order?",
+    "created_at": "2026-06-08T15:46:57.369Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 100,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-08T16:00:39.953Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 101,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-08T16:00:39.956Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 102,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 2}",
+    "created_at": "2026-06-08T16:00:39.958Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 103,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 3, 'history': [{'order_id': 1, 'product': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'reason': 'AC dispatched 5 days ago but not delivered yet. Want refund.', 'status': '",
+    "created_at": "2026-06-08T16:00:39.967Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 104,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 2\\n\\nOrder Details:\\nOrder ID: 1\\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\\nAmount: Rs. 42,999\\nOrder Status: Dispatched\\nCarrier: BlueDart\\nTracking Number: BD99281733\\nOrdered On: 26 Apr 2025\\nDays Since Order: 408 days\\nDelivery Address: 14, Residency Road, Shivajinagar, Bangalore - 560025\\n\\nRefund History:\\nOrder 1 - Refund requested on 30 Apr 2025, Status: Pending. Reason: AC dispatched 5 days ago but not delivered yet.\\nOrder 2 - Refund requested on 20 Mar 2025, Status: Denied. Reason: AC making loud noise.\\nOrder 3 - Refund requested on 20 Feb 2025, Status: Approved. Reason: Stabilizer stopped working after 3 days.\\n\\nComplaint Summary:\\nCustomer has been waiting for delivery of Order 1 for 408 days. The order status is still showing as dispatched and has not been delivered. Customer has been repeatedly told delivery would be the next day. Customer initially wanted to sue but then agreed to a refund. The refund request has been pending since 30 Apr 2025 and customer is now following up on the refund status. This case requires urgent attention and a final refund decision.'}",
+    "created_at": "2026-06-08T16:00:51.011Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 105,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 2\n\nOrder Details:\nOrder ID: 1\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\nAmount: Rs. 42,999\nOrder Status: Dispatched\nCarrier: BlueDart\nTracking Number: BD99281733\nOrdered O",
+    "created_at": "2026-06-08T16:00:51.013Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 106,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-08T16:00:53.563Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 107,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 2",
+    "created_at": "2026-06-08T16:00:53.565Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 108,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-08T16:00:55.959Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 109,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Verdict: Got the data. Here's my full risk assessment:\n\n---\n\n**🔍 Fraud Risk Assessment — User ID 2**\n\n---\n\n**Risk Level: MEDIUM ⚠️**\n\n---\n\n**Key Signals:**\n\n| Signal | Detail |\n|---|---|\n| **Refund-to-Order Ra",
+    "created_at": "2026-06-08T16:01:08.522Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 110,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 📋 Senior Manager Review — Final Decision\n\n**Case:** Order #1 | Customer User ID: 2\n**Decision: ✅ APPROVE REFUND — Rs. 42,999**\n\n---\n\n### Reasoning:\n\nAfter reviewing the case details and the fr",
+    "created_at": "2026-06-08T16:01:19.684Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 111,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 📋 Senior Manager Review — Final Decision\n\n**Case:** Order #1 | Customer User ID: 2\n**Decision: ✅ APPROVE REFUND — Rs. 42,999**\n\n---\n\n### Reasoning:\n\nAfter reviewing the case details and the fr",
+    "created_at": "2026-06-08T16:01:19.687Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 112,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "I have great news. My manager has approved a full refund of Rs. 42,999 for your order. The amount will be processed to your original payment method and you should receive it shortly. I sincerely apologize for the extremely long wait and the inconvenience this has caused you.",
+    "created_at": "2026-06-08T16:01:22.449Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 113,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-08T16:12:57.779Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 114,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-08T16:12:57.782Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 115,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 2}",
+    "created_at": "2026-06-08T16:12:57.784Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 116,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 3, 'history': [{'order_id': 1, 'product': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'reason': 'AC dispatched 5 days ago but not delivered yet. Want refund.', 'status': '",
+    "created_at": "2026-06-08T16:12:57.788Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 117,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 2\\n\\nOrder Details:\\nOrder ID: 1, Product: CoolBreeze 1.5 Ton 5 Star Inverter Split AC, Amount: Rs. 42,999, Status: Dispatched, Carrier: BlueDart, Tracking Number: BD99281733, Ordered On: 26 Apr 2025, Days Since Order: 408, Delivery Address: 14, Residency Road, Shivajinagar, Bangalore - 560025.\\n\\nRefund History:\\n1. Order ID 1 - CoolBreeze 1.5 Ton 5 Star Inverter Split AC - Reason: AC dispatched 5 days ago but not delivered yet. Status: Pending. Requested on: 30 Apr 2025.\\n2. Order ID 2 - CoolBreeze 1.5 Ton 3 Star Split AC - Reason: AC making loud noise. Status: Denied. Requested on: 20 Mar 2025.\\n3. Order ID 3 - CoolBreeze AC Voltage Stabilizer 5KVA - Reason: Stabilizer stopped working after 3 days. Status: Approved. Requested on: 20 Feb 2025.\\n\\nComplaint:\\nCustomer has been waiting 408 days for delivery of Order 1. The shipment is still showing as dispatched with BlueDart tracking BD99281733 and has not moved. Customer is requesting a refund of Rs. 42,999. The refund request has been pending since 30 Apr 2025 and needs urgent resolution.'}",
+    "created_at": "2026-06-08T16:13:06.033Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 118,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 2\n\nOrder Details:\nOrder ID: 1, Product: CoolBreeze 1.5 Ton 5 Star Inverter Split AC, Amount: Rs. 42,999, Status: Dispatched, Carrier: BlueDart, Tracking Number: BD99281733, Ordered O",
+    "created_at": "2026-06-08T16:13:06.039Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 119,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-08T16:13:08.816Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 120,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 2",
+    "created_at": "2026-06-08T16:13:08.818Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 121,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-08T16:13:11.190Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 122,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Verdict: Got the data. Here's my full risk assessment:\n\n---\n\n### 🔍 Fraud Risk Assessment — User ID 2\n\n**Risk Level: MEDIUM ⚠️**\n\n---\n\n**Key Signals:**\n\n| Signal | Detail |\n|---|---|\n| 🔴 High Refund-to-Order Ra",
+    "created_at": "2026-06-08T16:13:20.986Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 123,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Decision: ## 📋 Refund Decision — Order ID 1 | User ID 2\n\n---\n\n### 🔍 Case Summary Review\n\n| Factor | Detail |\n|---|---|\n| **Order Value** | Rs. 42,999 |\n| **Days Since Order** | 408 days — severely overdue |\n| *",
+    "created_at": "2026-06-08T16:13:34.109Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 124,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ## 📋 Refund Decision — Order ID 1 | User ID 2\n\n---\n\n### 🔍 Case Summary Review\n\n| Factor | Detail |\n|---|---|\n| **Order Value** | Rs. 42,999 |\n| **Days Since Order** | 408 days — severely overdue |\n| *",
+    "created_at": "2026-06-08T16:13:34.111Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 125,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "I have great news. My manager has approved your refund of Rs. 42,999. The amount will be processed to your original payment method shortly. I sincerely apologize for the extremely long wait and the poor experience you have had with us.",
+    "created_at": "2026-06-08T16:13:37.186Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 126,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-08T16:15:32.283Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 127,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-08T16:15:32.287Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 128,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 2}",
+    "created_at": "2026-06-08T16:15:32.290Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 129,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 3, 'history': [{'order_id': 1, 'product': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'reason': 'AC dispatched 5 days ago but not delivered yet. Want refund.', 'status': '",
+    "created_at": "2026-06-08T16:15:32.297Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 130,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 2\\n\\nOrder Details:\\nOrder ID: 1, Product: CoolBreeze 1.5 Ton 5 Star Inverter Split AC, Amount: Rs. 42,999, Status: Dispatched but not delivered, Carrier: BlueDart, Tracking: BD99281733, Ordered On: 26 Apr 2025, Days Since Order: 408, Delivery Address: 14, Residency Road, Shivajinagar, Bangalore - 560025\\n\\nRefund History:\\n1. Order 1 - Refund requested on 30 Apr 2025, Status: Pending (408 days old)\\n2. Order 2 - Refund denied on 20 Mar 2025\\n3. Order 3 - Refund approved on 20 Feb 2025\\n\\nComplaint:\\nCustomer has been waiting for delivery for 408 days. The order is still showing as dispatched and has never been delivered. The refund request has been pending since 30 Apr 2025 with no resolution. Customer is extremely frustrated and is threatening legal action. Customer is urgently requesting immediate refund of Rs. 42,999. This needs to be resolved urgently.'}",
+    "created_at": "2026-06-08T16:15:39.041Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 131,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 2\n\nOrder Details:\nOrder ID: 1, Product: CoolBreeze 1.5 Ton 5 Star Inverter Split AC, Amount: Rs. 42,999, Status: Dispatched but not delivered, Carrier: BlueDart, Tracking: BD99281733",
+    "created_at": "2026-06-08T16:15:39.048Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 132,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-08T16:15:41.706Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 133,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 2",
+    "created_at": "2026-06-08T16:15:41.711Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 134,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-08T16:15:44.672Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 135,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Verdict: Here is my full risk assessment for user ID 2:\n\n---\n\n### 🟡 Risk Level: **MEDIUM**\n\n---\n\n### 🔍 Key Signals\n\n| Signal | Detail |\n|---|---|\n| **Refund-to-Order Ratio** | 0.60 (60%) — notably high; 3 refu",
+    "created_at": "2026-06-08T16:15:57.882Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 136,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Decision: Thank you for the risk assessment. Here is my full case review and final decision.\n\n---\n\n## 📋 Senior Manager Refund Decision — Case Review\n\n### Case Summary\n\n| Field | Detail |\n|---|---|\n| **Customer ",
+    "created_at": "2026-06-08T16:16:14.165Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 137,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: Thank you for the risk assessment. Here is my full case review and final decision.\n\n---\n\n## 📋 Senior Manager Refund Decision — Case Review\n\n### Case Summary\n\n| Field | Detail |\n|---|---|\n| **Customer ",
+    "created_at": "2026-06-08T16:16:14.167Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 138,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "I have great news. My manager has reviewed your case and approved a full refund of Rs. 42,999. The amount will be processed to your original payment method and you will also receive a formal apology from us. I am truly sorry for the 408 days of waiting and the poor experience you have had with us.",
+    "created_at": "2026-06-08T16:16:16.674Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 139,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 2}",
+    "created_at": "2026-06-08T16:27:47.500Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 140,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 3, 'history': [{'order_id': 1, 'product': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'reason': 'AC dispatched 5 days ago but not delivered yet. Want refund.', 'status': '",
+    "created_at": "2026-06-08T16:27:47.508Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 141,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 1}",
+    "created_at": "2026-06-08T16:27:47.509Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 142,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 1, 'product_name': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'amount': '42999.00', 'status': 'dispatched', 'carrier': 'BlueDart', 'tracking_number': 'BD99281733', 'delivery_address':",
+    "created_at": "2026-06-08T16:27:47.511Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 143,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 2\\n\\nOrder ID: 1\\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\\nOrder Amount: Rs. 42,999\\nOrder Status: Dispatched\\nCarrier: BlueDart\\nTracking Number: BD99281733\\nDays Since Order: 408 days\\nDelivery Address: 14, Residency Road, Shivajinagar, Bangalore - 560025\\n\\nRefund History:\\n- Order 1: Refund requested on 30 Apr 2025, status Pending. Reason: AC dispatched but not delivered.\\n- Order 2: Refund denied on 20 Mar 2025. Reason: AC making loud noise.\\n- Order 3: Refund approved on 20 Feb 2025. Reason: Stabilizer stopped working after 3 days.\\n\\nComplaint: Customer has been waiting 408 days for delivery. Order is still showing as dispatched with BlueDart and has not moved. Customer has an existing pending refund request for this order and is urgently requesting the refund to be processed. Immediate manager review and action required.'}",
+    "created_at": "2026-06-08T16:27:54.290Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 144,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 2\n\nOrder ID: 1\nProduct: CoolBreeze 1.5 Ton 5 Star Inverter Split AC\nOrder Amount: Rs. 42,999\nOrder Status: Dispatched\nCarrier: BlueDart\nTracking Number: BD99281733\nDays Since Order: ",
+    "created_at": "2026-06-08T16:27:54.294Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 145,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-08T16:27:56.441Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 146,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 2",
+    "created_at": "2026-06-08T16:27:56.445Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 147,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-08T16:27:58.590Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 148,
+  "fields": {
+    "conversation": 25,
+    "event_type": "risk",
+    "message": "Verdict: I have the data. Here is my full risk assessment for user ID 2:\n\n---\n\n### 🔍 Fraud Risk Assessment — User ID 2\n\n**Risk Level: MEDIUM ⚠️**\n\n---\n\n#### 📊 Key Signals\n\n| Metric | Value | Observation |\n|---",
+    "created_at": "2026-06-08T16:28:09.303Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 149,
+  "fields": {
+    "conversation": 25,
+    "event_type": "manager",
+    "message": "Decision: ## 📋 Refund Decision — Order ID 1 | User ID 2\n\n---\n\n### 🔎 Case Analysis\n\n| Factor | Assessment |\n|---|---|\n| Order Status | Dispatched — stuck for **408 days**, no movement |\n| Carrier | BlueDart (Tra",
+    "created_at": "2026-06-08T16:28:21.455Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 150,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ## 📋 Refund Decision — Order ID 1 | User ID 2\n\n---\n\n### 🔎 Case Analysis\n\n| Factor | Assessment |\n|---|---|\n| Order Status | Dispatched — stuck for **408 days**, no movement |\n| Carrier | BlueDart (Tra",
+    "created_at": "2026-06-08T16:28:21.458Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 151,
+  "fields": {
+    "conversation": 25,
+    "event_type": "final",
+    "message": "I have great news. My manager has reviewed your case and approved the refund of Rs. 42,999 for your order. The refund will be processed to your original payment method shortly. I sincerely apologize for the 408 days of waiting and the inconvenience this has caused you.",
+    "created_at": "2026-06-08T16:28:23.476Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 152,
+  "fields": {
+    "conversation": 26,
+    "event_type": "final",
+    "message": "Hello! Welcome to CoolBreeze AC support. I am Maya, and I am here to help you today. How can I assist you?",
+    "created_at": "2026-06-09T09:44:01.350Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 153,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 12}",
+    "created_at": "2026-06-09T09:44:25.008Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 154,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 12, 'product_name': 'CoolBreeze 1.5 Ton 3 Star Split AC', 'amount': '34999.00', 'status': 'delivered', 'carrier': 'Delhivery', 'tracking_number': 'DL22222222', 'delivery_address': '22, MG",
+    "created_at": "2026-06-09T09:44:25.011Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 155,
+  "fields": {
+    "conversation": 26,
+    "event_type": "final",
+    "message": "I can see your CoolBreeze 1.5 Ton 3 Star Split AC was delivered to your address in Pune. Since the unit is making noise, could you describe the type of noise a bit more? For example, is it a rattling, humming, or grinding sound, and does it happen when the AC starts up or continuously while running? This will help me guide you better.",
+    "created_at": "2026-06-09T09:44:28.526Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 156,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 12}",
+    "created_at": "2026-06-09T09:45:41.797Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 157,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 12, 'product_name': 'CoolBreeze 1.5 Ton 3 Star Split AC', 'amount': '34999.00', 'status': 'delivered', 'carrier': 'Delhivery', 'tracking_number': 'DL22222222', 'delivery_address': '22, MG",
+    "created_at": "2026-06-09T09:45:41.802Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 158,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-09T09:45:41.803Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 159,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-09T09:45:41.816Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 160,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 12\\nProduct: CoolBreeze 1.5 Ton 3 Star Split AC\\nAmount: Rs. 34999\\nStatus: Delivered\\nOrdered On: 05 Feb 2025\\nDays Since Order: 488\\nDelivery Address: 22, MG Road, Pune - 411001\\nCarrier: Delhivery, Tracking: DL22222222\\n\\nCustomer Complaint:\\nCustomer says the AC is making noise and is requesting a refund.\\n\\nRefund History on This Order:\\n1. Request on 08 Feb 2025 - Reason: AC making loud noise - Status: Denied\\n2. Request on 15 Feb 2025 - Reason: Product not as described - Status: Denied\\n\\nOverall Refund History:\\nCustomer has made 8 total refund requests across multiple orders. 2 were approved, 5 were denied, and 1 is pending. The current refund request is the third on this same order (Order #12), which was delivered over 488 days ago. Previous requests for the same noise complaint were already denied.'}",
+    "created_at": "2026-06-09T09:45:49.845Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 161,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 12\nProduct: CoolBreeze 1.5 Ton 3 Star Split AC\nAmount: Rs. 34999\nStatus: Delivered\nOrdered On: 05 Feb 2025\nDays Since Order: 488\nDelivery Address: 22, MG ",
+    "created_at": "2026-06-09T09:45:49.850Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 162,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-09T09:45:51.890Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 163,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-09T09:45:51.893Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 164,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-09T09:45:54.777Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 165,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Verdict: I've received the profile data. Here is my full risk assessment:\n\n---\n\n### 🔴 Risk Level: HIGH\n\n---\n\n### 🔍 Key Signals\n\n| Metric | Value | Observation |\n|---|---|---|\n| Total Orders | 5 | Very low orde",
+    "created_at": "2026-06-09T09:46:06.043Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 166,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Decision: ## 🔴 Refund Decision: **DENIED**\n\n---\n\n### 📋 Case Summary — Order #12 | Customer ID: 5\n\n| Detail | Info |\n|---|---|\n| **Product** | CoolBreeze 1.5 Ton 3 Star Split AC |\n| **Amount** | Rs. 34,999 |\n| *",
+    "created_at": "2026-06-09T09:46:17.745Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 167,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ## 🔴 Refund Decision: **DENIED**\n\n---\n\n### 📋 Case Summary — Order #12 | Customer ID: 5\n\n| Detail | Info |\n|---|---|\n| **Product** | CoolBreeze 1.5 Ton 3 Star Split AC |\n| **Amount** | Rs. 34,999 |\n| *",
+    "created_at": "2026-06-09T09:46:17.747Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 168,
+  "fields": {
+    "conversation": 26,
+    "event_type": "final",
+    "message": "I heard back from my team and unfortunately the refund request has been denied. The order was delivered over 488 days ago which is well outside our refund policy window, and this is also the third refund request raised on this same order. No further refund requests on Order 12 will be entertained.\n\nIf the AC is still under warranty, I would recommend reaching out to our service team for a technician visit to address the noise issue. Would you like help with that?",
+    "created_at": "2026-06-09T09:46:21.355Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 169,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 12}",
+    "created_at": "2026-06-09T09:52:58.740Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 170,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 12, 'product_name': 'CoolBreeze 1.5 Ton 3 Star Split AC', 'amount': '34999.00', 'status': 'delivered', 'carrier': 'Delhivery', 'tracking_number': 'DL22222222', 'delivery_address': '22, MG",
+    "created_at": "2026-06-09T09:52:58.745Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 171,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-09T09:52:58.746Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 172,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-09T09:52:58.760Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 173,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 12\\nProduct: CoolBreeze 1.5 Ton 3 Star Split AC\\nAmount: Rs. 34999\\nStatus: Delivered\\nOrdered On: 05 Feb 2025\\nDays Since Order: 488\\nDelivery Address: 22, MG Road, Pune - 411001\\n\\nRefund History:\\nTotal refund requests across all orders: 8\\nRefund requests for Order 12 specifically: 2 (both denied)\\n- Requested on 08 Feb 2025, Reason: AC making loud noise, Status: Denied\\n- Requested on 15 Feb 2025, Reason: Product not as described, Status: Denied\\n\\nCurrent Complaint:\\nCustomer is reporting AC making noise and is now requesting a refund for Order 12. This is the third refund request for this same order. The order was placed 488 days ago and has been delivered. Customer is insisting on an immediate refund.'}",
+    "created_at": "2026-06-09T09:53:05.842Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 174,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 12\nProduct: CoolBreeze 1.5 Ton 3 Star Split AC\nAmount: Rs. 34999\nStatus: Delivered\nOrdered On: 05 Feb 2025\nDays Since Order: 488\nDelivery Address: 22, MG ",
+    "created_at": "2026-06-09T09:53:05.849Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 175,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-09T09:53:08.631Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 176,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-09T09:53:08.636Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 177,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-09T09:53:10.757Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 178,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Verdict: I've got the data. Here's my full risk assessment for user ID 5:\n\n---\n\n### 🔴 Risk Level: **HIGH**\n\n---\n\n### 🔍 Key Signals:\n\n| Signal | Detail |\n|---|---|\n| **Refund-to-Order Ratio** | **1.6** — This c",
+    "created_at": "2026-06-09T09:53:22.116Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 179,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 📋 Final Refund Decision — Order #12 | Customer ID: 5\n\n### ❌ Decision: **DENY REFUND**\n\n---\n\n### 📌 Reason for Denial:\n\nAfter a thorough review of the case and a fraud risk assessment, this refu",
+    "created_at": "2026-06-09T09:53:31.739Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 180,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 📋 Final Refund Decision — Order #12 | Customer ID: 5\n\n### ❌ Decision: **DENY REFUND**\n\n---\n\n### 📌 Reason for Denial:\n\nAfter a thorough review of the case and a fraud risk assessment, this refu",
+    "created_at": "2026-06-09T09:53:31.742Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 181,
+  "fields": {
+    "conversation": 26,
+    "event_type": "final",
+    "message": "I have checked with my team and I have their decision. Unfortunately, the refund for Order 12 has been denied. This order was placed over 488 days ago which is well outside our refund policy window, and this is the third refund request raised for this same order.\n\nIf the AC noise is still a concern, I can help you raise a service request for a technician visit under warranty. Would you like me to help with that instead?",
+    "created_at": "2026-06-09T09:53:35.068Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 182,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 12}",
+    "created_at": "2026-06-09T09:54:25.546Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 183,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 12, 'product_name': 'CoolBreeze 1.5 Ton 3 Star Split AC', 'amount': '34999.00', 'status': 'delivered', 'carrier': 'Delhivery', 'tracking_number': 'DL22222222', 'delivery_address': '22, MG",
+    "created_at": "2026-06-09T09:54:25.552Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 184,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-09T09:54:25.557Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 185,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-09T09:54:25.572Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 186,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 12\\nProduct: CoolBreeze 1.5 Ton 3 Star Split AC\\nAmount: Rs. 34999\\nStatus: Delivered\\nOrdered On: 05 Feb 2025\\nDays Since Order: 488\\nDelivery Address: 22, MG Road, Pune - 411001\\nCarrier: Delhivery\\nTracking Number: DL22222222\\n\\nRefund History Summary:\\nTotal refund requests across all orders: 8\\nRefund requests for Order 12 specifically: 2 (both denied)\\n- Denied on 08 Feb 2025, reason: AC making loud noise\\n- Denied on 15 Feb 2025, reason: Product not as described\\n\\nOverall refund history:\\n- 2 refunds approved across other orders\\n- 5 refunds denied across various orders\\n- 1 refund pending (Order 15)\\n\\nCurrent Complaint:\\nCustomer is reporting that the AC is making noise and is requesting a refund. This is the third refund attempt for Order 12. The order was placed 488 days ago, which is well outside the standard refund window. Customer is insisting on an immediate refund.'}",
+    "created_at": "2026-06-09T09:54:33.005Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 187,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 12\nProduct: CoolBreeze 1.5 Ton 3 Star Split AC\nAmount: Rs. 34999\nStatus: Delivered\nOrdered On: 05 Feb 2025\nDays Since Order: 488\nDelivery Address: 22, MG ",
+    "created_at": "2026-06-09T09:54:33.008Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 188,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-09T09:54:35.019Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 189,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-09T09:54:35.023Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 190,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-09T09:54:37.225Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 191,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Verdict: I have the data. Here is my full risk assessment:\n\n---\n\n## 🔴 Risk Level: HIGH\n\n---\n\n### 📊 Key Signals\n\n| Metric | Value | Assessment |\n|---|---|---|\n| Total Orders | 5 | Low purchase volume |\n| Total ",
+    "created_at": "2026-06-09T09:54:49.591Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 192,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 📋 Final Refund Decision — Order #12 | User ID: 5\n\n---\n\n### ❌ Decision: **REFUND DENIED**\n\n---\n\n### 📌 Reason for Denial\n\nAfter a thorough review of the case and a formal fraud risk assessment, ",
+    "created_at": "2026-06-09T09:54:59.013Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 193,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 📋 Final Refund Decision — Order #12 | User ID: 5\n\n---\n\n### ❌ Decision: **REFUND DENIED**\n\n---\n\n### 📌 Reason for Denial\n\nAfter a thorough review of the case and a formal fraud risk assessment, ",
+    "created_at": "2026-06-09T09:54:59.016Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 194,
+  "fields": {
+    "conversation": 26,
+    "event_type": "final",
+    "message": "I have received the decision from my manager and unfortunately the refund for Order 12 has been denied. The order is 488 days old which is well beyond our refund policy, and this is the third refund request for the same order with no new grounds to reverse the earlier decisions.\n\nIf the AC noise issue is still ongoing, I would suggest raising a service request for a technician visit. Is there anything else I can help you with?",
+    "created_at": "2026-06-09T09:55:02.628Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 195,
+  "fields": {
+    "conversation": 26,
+    "event_type": "final",
+    "message": "I completely understand your frustration, and I am sorry you are going through this. However, I am unable to approve a refund for this order as the decision has already been made by my manager. The order is too old and this is the third refund request for the same order.\n\nWhat I can do is help you get a technician to look at the noise issue. Would you like me to arrange that for you?",
+    "created_at": "2026-06-09T09:56:55.930Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 196,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 12}",
+    "created_at": "2026-06-09T09:57:40.682Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 197,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 12, 'product_name': 'CoolBreeze 1.5 Ton 3 Star Split AC', 'amount': '34999.00', 'status': 'delivered', 'carrier': 'Delhivery', 'tracking_number': 'DL22222222', 'delivery_address': '22, MG",
+    "created_at": "2026-06-09T09:57:40.688Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 198,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-09T09:57:40.691Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 199,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-09T09:57:40.703Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 200,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 12\\nProduct: CoolBreeze 1.5 Ton 3 Star Split AC\\nAmount: Rs. 34999\\nStatus: Delivered\\nOrdered On: 05 Feb 2025\\nDays Since Order: 488\\nDelivery Address: 22, MG Road, Pune - 411001\\n\\nRefund History for Order 12:\\n1. Requested on 08 Feb 2025 - Reason: AC making loud noise - Status: Denied\\n2. Requested on 15 Feb 2025 - Reason: Product not as described - Status: Denied\\n\\nOverall Refund History: Customer has made 8 total refund requests across multiple orders. Two previous refund requests for Order 12 have both been denied.\\n\\nCustomer Complaint: Customer is requesting a refund for Order 12 citing AC making noise. This is the third refund request for the same order. Customer is insisting on re-escalation to manager for reconsideration.'}",
+    "created_at": "2026-06-09T09:57:46.684Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 201,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 12\nProduct: CoolBreeze 1.5 Ton 3 Star Split AC\nAmount: Rs. 34999\nStatus: Delivered\nOrdered On: 05 Feb 2025\nDays Since Order: 488\nDelivery Address: 22, MG ",
+    "created_at": "2026-06-09T09:57:46.689Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 202,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-09T09:57:48.759Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 203,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-09T09:57:48.764Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 204,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-09T09:57:51.233Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 205,
+  "fields": {
+    "conversation": 26,
+    "event_type": "risk",
+    "message": "Verdict: I have the data. Here is my full risk assessment for user ID 5:\n\n---\n\n### 🔴 Risk Level: **HIGH**\n\n---\n\n### 🔍 Key Signals:\n\n| Signal | Detail |\n|---|---|\n| **Refund-to-Order Ratio** | **1.6** — This is",
+    "created_at": "2026-06-09T09:58:01.990Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 206,
+  "fields": {
+    "conversation": 26,
+    "event_type": "manager",
+    "message": "Decision: ## ⛔ Refund Decision: **DENIED**\n\n---\n\n### 📋 Case Summary — Order #12 | Customer ID: 5\n\n| Detail | Info |\n|---|---|\n| **Product** | CoolBreeze 1.5 Ton 3 Star Split AC |\n| **Order Amount** | Rs. 34,999",
+    "created_at": "2026-06-09T09:58:11.745Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 207,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ## ⛔ Refund Decision: **DENIED**\n\n---\n\n### 📋 Case Summary — Order #12 | Customer ID: 5\n\n| Detail | Info |\n|---|---|\n| **Product** | CoolBreeze 1.5 Ton 3 Star Split AC |\n| **Order Amount** | Rs. 34,999",
+    "created_at": "2026-06-09T09:58:11.748Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 208,
+  "fields": {
+    "conversation": 26,
+    "event_type": "final",
+    "message": "I have spoken with my manager again and the refund for Order 12 has been denied for the final time. This is the third request for the same order and the order is 488 days old with no new grounds provided for reconsideration.\n\nI strongly suggest we focus on resolving the noise issue through a technician visit instead. Would you like me to help arrange that?",
+    "created_at": "2026-06-09T09:58:14.711Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 209,
+  "fields": {
+    "conversation": 26,
+    "event_type": "final",
+    "message": "I understand you are upset and I take your concern seriously. However, the refund decision has been made by my manager and I am not in a position to override it. The order is 488 days old and this is the third refund request for the same order.\n\nYou are welcome to pursue any legal channels available to you. In the meantime, if you would like help with a technician visit for the noise issue, I am here to assist.",
+    "created_at": "2026-06-09T10:15:05.363Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 210,
+  "fields": {
+    "conversation": 27,
+    "event_type": "final",
+    "message": "Hey there! Welcome to CoolBreeze AC support. I am Maya, happy to help you today. What seems to be the issue?",
+    "created_at": "2026-06-09T10:15:39.580Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 211,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 14}",
+    "created_at": "2026-06-09T10:15:56.544Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 212,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 14, 'product_name': 'CoolBreeze 1 Ton 5 Star Inverter Split AC', 'amount': '38999.00', 'status': 'delivered', 'carrier': 'Ekart', 'tracking_number': 'EK44444444', 'delivery_address': '22,",
+    "created_at": "2026-06-09T10:15:56.549Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 213,
+  "fields": {
+    "conversation": 27,
+    "event_type": "final",
+    "message": "I can see your order for the CoolBreeze 1 Ton 5 Star Inverter Split AC was delivered to your address in Pune. Can you tell me more about the issue you are facing with the AC? For example, is it not turning on, not cooling, or something else?",
+    "created_at": "2026-06-09T10:16:00.383Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 214,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 14}",
+    "created_at": "2026-06-09T10:18:21.391Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 215,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 14, 'product_name': 'CoolBreeze 1 Ton 5 Star Inverter Split AC', 'amount': '38999.00', 'status': 'delivered', 'carrier': 'Ekart', 'tracking_number': 'EK44444444', 'delivery_address': '22,",
+    "created_at": "2026-06-09T10:18:21.395Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 216,
+  "fields": {
+    "conversation": 27,
+    "event_type": "final",
+    "message": "Your order was placed on March 20, 2025, which is about 446 days ago. Warranty terms depend on the specific warranty period for your product, and for most AC units it is typically 1 year for the product and longer for the compressor. Since it has been over a year, the standard 1 year product warranty may have expired, but the compressor warranty could still be valid. I would recommend checking the warranty card that came with your AC or contacting the manufacturer directly for confirmation.",
+    "created_at": "2026-06-09T10:18:25.389Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 217,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 14}",
+    "created_at": "2026-06-09T10:18:56.310Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 218,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 14, 'product_name': 'CoolBreeze 1 Ton 5 Star Inverter Split AC', 'amount': '38999.00', 'status': 'delivered', 'carrier': 'Ekart', 'tracking_number': 'EK44444444', 'delivery_address': '22,",
+    "created_at": "2026-06-09T10:18:56.313Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 219,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-09T10:18:56.315Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 220,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-09T10:18:56.324Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 221,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 14\\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\\nAmount: Rs. 38999\\nStatus: Delivered\\nOrdered On: 20 Mar 2025\\nDays Since Order: 446\\nDelivery Address: 22, MG Road, Pune - 411001\\nCarrier: Ekart\\nTracking Number: EK44444444\\n\\nRefund History:\\nCustomer has a total of 8 refund requests across multiple orders. Out of these, 5 have been denied, 2 approved and 1 is pending.\\n\\nFor this specific order (Order ID 14), a previous refund request was denied on 25 Mar 2025 with reason \"Received damaged product\".\\n\\nCurrent Complaint:\\nCustomer is saying the AC is not working and is requesting a refund. The product is 446 days old and likely out of standard 1 year warranty.'}",
+    "created_at": "2026-06-09T10:19:03.682Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 222,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 14\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\nAmount: Rs. 38999\nStatus: Delivered\nOrdered On: 20 Mar 2025\nDays Since Order: 446\nDelivery Address: ",
+    "created_at": "2026-06-09T10:19:03.685Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 223,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-09T10:19:05.908Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 224,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-09T10:19:05.913Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 225,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-09T10:19:08.187Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 226,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Verdict: I now have the profile data. Here is my full risk assessment:\n\n---\n\n### 🔴 Risk Level: HIGH\n\n---\n\n### 🔍 Key Signals\n\n| Signal | Detail |\n|---|---|\n| **Refund-to-Order Ratio: 1.6** | This customer has s",
+    "created_at": "2026-06-09T10:19:18.940Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 227,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 📋 Refund Decision — Order ID: 14\n\n**Decision: ❌ DENY REFUND**\n\n---\n\n### Reason for Denial\n\nAfter a thorough review of the case and a formal fraud risk assessment, this refund request is **deni",
+    "created_at": "2026-06-09T10:19:28.127Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 228,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 📋 Refund Decision — Order ID: 14\n\n**Decision: ❌ DENY REFUND**\n\n---\n\n### Reason for Denial\n\nAfter a thorough review of the case and a formal fraud risk assessment, this refund request is **deni",
+    "created_at": "2026-06-09T10:19:28.129Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 229,
+  "fields": {
+    "conversation": 27,
+    "event_type": "final",
+    "message": "I have received a response from my team. Unfortunately, the refund request for Order 14 has been denied. The main reasons are that the product is over 446 days old and falls outside the standard warranty period, and a refund was already denied for this same order earlier. I understand this is not the news you were hoping for, and I am sorry for the inconvenience. If the AC is malfunctioning, I would suggest reaching out to an authorized service center for a paid repair assessment.",
+    "created_at": "2026-06-09T10:19:32.865Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 230,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-09T10:19:48.432Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 231,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-09T10:19:48.446Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 232,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 14}",
+    "created_at": "2026-06-09T10:19:48.447Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 233,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 14, 'product_name': 'CoolBreeze 1 Ton 5 Star Inverter Split AC', 'amount': '38999.00', 'status': 'delivered', 'carrier': 'Ekart', 'tracking_number': 'EK44444444', 'delivery_address': '22,",
+    "created_at": "2026-06-09T10:19:48.449Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 234,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 14\\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\\nAmount: Rs. 38999\\nStatus: Delivered\\nOrdered On: 20 Mar 2025\\nDays Since Order: 446\\nDelivery Address: 22, MG Road, Pune - 411001\\nCarrier: Ekart, Tracking: EK44444444\\n\\nRefund History Summary:\\nCustomer has made 8 total refund requests across multiple orders. For Order 14, a refund was previously denied on 25 Mar 2025 with reason \"Received damaged product\". Customer now reports AC is not working and is requesting a refund again for the same order. Customer has a high volume of refund requests across orders 11, 12, 13, 14, and 15, with multiple denials.\\n\\nCurrent Complaint:\\nCustomer says the AC is not working and is requesting a refund. Product is 446 days old, likely outside standard 1-year warranty period.'}",
+    "created_at": "2026-06-09T10:19:55.433Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 235,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 14\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\nAmount: Rs. 38999\nStatus: Delivered\nOrdered On: 20 Mar 2025\nDays Since Order: 446\nDelivery Address: ",
+    "created_at": "2026-06-09T10:19:55.437Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 236,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-09T10:19:57.545Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 237,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-09T10:19:57.548Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 238,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-09T10:19:59.802Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 239,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Verdict: I have the data. Here is my full risk assessment:\n\n---\n\n## 🔴 Risk Level: HIGH\n\n---\n\n### 📊 Key Signals\n\n| Metric | Value | Assessment |\n|---|---|---|\n| Total Orders | 5 | Low purchase volume |\n| Total ",
+    "created_at": "2026-06-09T10:20:11.175Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 240,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 🔴 Refund Decision: **DENIED**\n\n**Order ID:** 14 | **Customer ID:** 5 | **Product:** CoolBreeze 1 Ton 5 Star Inverter Split AC\n\n---\n\n### 📋 Decision Summary\n\n| Factor | Detail |\n|---|---|\n| **De",
+    "created_at": "2026-06-09T10:20:20.192Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 241,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 🔴 Refund Decision: **DENIED**\n\n**Order ID:** 14 | **Customer ID:** 5 | **Product:** CoolBreeze 1 Ton 5 Star Inverter Split AC\n\n---\n\n### 📋 Decision Summary\n\n| Factor | Detail |\n|---|---|\n| **De",
+    "created_at": "2026-06-09T10:20:20.194Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 242,
+  "fields": {
+    "conversation": 27,
+    "event_type": "final",
+    "message": "I have heard back from my manager and unfortunately the refund for Order 14 has been denied. The product is 446 days old and outside the standard warranty window, and a refund for this same order was already reviewed and denied previously. I am sorry I cannot do more on this, but I would recommend visiting an authorized service center for a paid repair.",
+    "created_at": "2026-06-09T10:20:23.328Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 243,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-09T10:22:59.123Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 244,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-09T10:22:59.138Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 245,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 14}",
+    "created_at": "2026-06-09T10:22:59.139Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 246,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 14, 'product_name': 'CoolBreeze 1 Ton 5 Star Inverter Split AC', 'amount': '38999.00', 'status': 'delivered', 'carrier': 'Ekart', 'tracking_number': 'EK44444444', 'delivery_address': '22,",
+    "created_at": "2026-06-09T10:22:59.141Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 247,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 14\\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\\nAmount: Rs. 38999\\nStatus: Delivered\\nOrdered On: 20 Mar 2025\\nDays Since Order: 446\\nDelivery Address: 22, MG Road, Pune - 411001\\n\\nRefund History Summary:\\nTotal refund requests across all orders: 8\\nFor Order 14 specifically: 1 prior refund request on 25 Mar 2025 with reason \"Received damaged product\" — status: denied.\\nOther orders (11, 12, 13) also show multiple denied refund requests with 2 approvals on different orders.\\n\\nCustomer Complaint:\\nCustomer is requesting a refund for Order 14 citing that the AC is not working. The refund for this order was previously denied. Customer is now claiming that a CoolBreeze staff member promised them a refund. This claim needs to be verified. Please review and advise on next steps.'}",
+    "created_at": "2026-06-09T10:23:06.516Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 248,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 14\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\nAmount: Rs. 38999\nStatus: Delivered\nOrdered On: 20 Mar 2025\nDays Since Order: 446\nDelivery Address: ",
+    "created_at": "2026-06-09T10:23:06.521Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 249,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-09T10:23:09.158Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 250,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-09T10:23:09.164Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 251,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-09T10:23:11.409Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 252,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Verdict: I have the data. Here is my full risk assessment for user ID 5:\n\n---\n\n### 🔴 Risk Level: **HIGH**\n\n---\n\n### 🔍 Key Signals:\n\n| Signal | Detail |\n|---|---|\n| **Refund-to-Order Ratio** | **1.6** — This is",
+    "created_at": "2026-06-09T10:23:22.982Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 253,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 📋 Senior Manager Refund Decision — Order ID: 14 | User ID: 5\n\n---\n\n### ❌ Decision: **DENY REFUND + ESCALATE TO RISK TEAM**\n\n---\n\n### 📌 Reason for Decision:\n\nAfter a thorough review of the case",
+    "created_at": "2026-06-09T10:23:35.371Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 254,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 📋 Senior Manager Refund Decision — Order ID: 14 | User ID: 5\n\n---\n\n### ❌ Decision: **DENY REFUND + ESCALATE TO RISK TEAM**\n\n---\n\n### 📌 Reason for Decision:\n\nAfter a thorough review of the case",
+    "created_at": "2026-06-09T10:23:35.375Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 255,
+  "fields": {
+    "conversation": 27,
+    "event_type": "final",
+    "message": "I have checked with my team and the refund for Order 14 has been denied. The claim about a staff promise could not be verified as there are no internal records supporting it. I am sorry, but we are unable to process a refund in this case. If you have any written communication or proof of the promise made, I would suggest sharing that with us so we can investigate further.",
+    "created_at": "2026-06-09T10:23:38.777Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 256,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-09T13:15:22.392Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 257,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-09T13:15:22.402Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 258,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 14\\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\\nOrder placed: March 20, 2025 (446 days ago)\\nDelivery: Delivered to Pune\\n\\nCustomer Complaint:\\nCustomer is requesting a refund stating the AC is not working. Customer also claims a CoolBreeze staff member promised them a refund, but no written proof has been provided.\\n\\nRefund History:\\nTotal refund requests: 8 across multiple orders\\nOrder 14 specific: Refund was previously denied on 25 Mar 2025 with reason \"Received damaged product\"\\nOther notable history: 6 out of 8 refund requests across different orders have been denied. Customer has made multiple refund requests across orders 11, 12, 13, 14, and 15.\\n\\nCurrent Request:\\nCustomer is persistently requesting a refund for Order 14 citing AC not working. Product is over a year old and outside standard warranty period. Customer claims staff promised a refund but has no proof. Requesting manager decision on whether to approve or deny this refund.'}",
+    "created_at": "2026-06-09T13:15:30.526Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 259,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 14\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\nOrder placed: March 20, 2025 (446 days ago)\nDelivery: Delivered to Pune\n\nCustomer Complaint:\nCustome",
+    "created_at": "2026-06-09T13:15:30.532Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 260,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-09T13:15:33.018Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 261,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-09T13:15:33.022Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 262,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-09T13:15:35.058Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 263,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Verdict: I have the profile data. Here is my full risk assessment:\n\n---\n\n## 🔴 Risk Level: HIGH\n\n---\n\n### 📊 Key Signals\n\n| Metric | Value | Concern Level |\n|---|---|---|\n| Total Orders | 5 | — |\n| Total Refund ",
+    "created_at": "2026-06-09T13:15:48.849Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 264,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 📋 Manager Decision — Order ID: 14 | User ID: 5\n\n---\n\n### 🔴 Decision: REFUND DENIED\n\n---\n\n### Reason for Decision\n\nAfter a thorough review of the case and a formal fraud risk assessment, I am *",
+    "created_at": "2026-06-09T13:16:01.276Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 265,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 📋 Manager Decision — Order ID: 14 | User ID: 5\n\n---\n\n### 🔴 Decision: REFUND DENIED\n\n---\n\n### Reason for Decision\n\nAfter a thorough review of the case and a formal fraud risk assessment, I am *",
+    "created_at": "2026-06-09T13:16:01.281Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 266,
+  "fields": {
+    "conversation": 27,
+    "event_type": "final",
+    "message": "I have the manager's decision and unfortunately the refund for Order 14 has been denied. The product is outside the warranty period, a refund for this same order was already denied before, and the staff promise you mentioned could not be verified in our system. I am sorry I was unable to help further on this, but if you have any written proof of the promise made, please do share it and we can look into it again.",
+    "created_at": "2026-06-09T13:16:04.842Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 267,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_order_details with {'order_id': 14}",
+    "created_at": "2026-06-09T13:41:10.654Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 268,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 14, 'product_name': 'CoolBreeze 1 Ton 5 Star Inverter Split AC', 'amount': '38999.00', 'status': 'delivered', 'carrier': 'Ekart', 'tracking_number': 'EK44444444', 'delivery_address': '22,",
+    "created_at": "2026-06-09T13:41:10.657Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 269,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool get_refund_history with {'user_id': 5}",
+    "created_at": "2026-06-09T13:41:10.658Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 270,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 8, 'history': [{'order_id': 15, 'product': 'CoolBreeze 2 Ton 5 Star Inverter Cassette AC', 'reason': 'AC compressor not working', 'status': 'pending', 'requested_on': '12 Apr",
+    "created_at": "2026-06-09T13:41:10.665Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 271,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool escalate_to_manager with {'case_summary': 'Customer User ID: 5\\n\\nOrder Details:\\nOrder ID: 14\\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\\nAmount: Rs. 38999\\nStatus: Delivered\\nOrdered On: 20 Mar 2025\\nDays Since Order: 446\\nDelivery Address: 22, MG Road, Pune - 411001\\nCarrier: Ekart\\nTracking Number: EK44444444\\n\\nCustomer Complaint:\\nCustomer says AC is not working and is requesting a refund. Customer also claims that a CoolBreeze staff member had promised them a refund, though no written proof has been provided.\\n\\nRefund History for this Order:\\nA refund request for Order 14 was already raised on 25 Mar 2025 with reason \"Received damaged product\" and was denied.\\n\\nOverall Refund History:\\nTotal refund requests by this customer: 8\\n- Order 11: Approved (AC stopped working after 2 days) - Jan 2025\\n- Order 11: Denied (Wrong model delivered) - Jan 2025\\n- Order 12: Denied (AC making loud noise) - Feb 2025\\n- Order 12: Denied (Product not as described) - Feb 2025\\n- Order 13: Denied (Want to return, changed mind) - Mar 2025\\n- Order 13: Approved (AC not cooling properly) - Mar 2026\\n- Order 14: Denied (Received damaged product) - Mar 2025\\n- Order 15: Pending (AC compressor not working) - Apr 2026\\n\\nNote: Customer has a high volume of refund requests across multiple orders. Refund for Order 14 was previously denied. Product is now 446 days old and likely outside standard warranty period. Customer claims staff promised a refund but has no written proof.'}",
+    "created_at": "2026-06-09T13:41:19.740Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 272,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 5\n\nOrder Details:\nOrder ID: 14\nProduct: CoolBreeze 1 Ton 5 Star Inverter Split AC\nAmount: Rs. 38999\nStatus: Delivered\nOrdered On: 20 Mar 2025\nDays Since Order: 446\nDelivery Address: ",
+    "created_at": "2026-06-09T13:41:19.746Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 273,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-06-09T13:41:22.702Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 274,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 5",
+    "created_at": "2026-06-09T13:41:22.707Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 275,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-06-09T13:41:25.373Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 276,
+  "fields": {
+    "conversation": 27,
+    "event_type": "risk",
+    "message": "Verdict: I've received the profile data. Here is my full risk assessment:\n\n---\n\n## 🔴 Risk Level: HIGH\n\n---\n\n### 📊 Key Signals\n\n| Metric | Value | Concern Level |\n|---|---|---|\n| Total Orders | 5 | Baseline |\n|",
+    "created_at": "2026-06-09T13:41:39.116Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 277,
+  "fields": {
+    "conversation": 27,
+    "event_type": "manager",
+    "message": "Decision: ---\n\n## 📋 Refund Decision — Order ID: 14 | Customer User ID: 5\n\n### ❌ Decision: **DENY REFUND** — Escalate Account to Risk Team\n\n---\n\n### 📌 Reason for Decision\n\nAfter a thorough review of the case and",
+    "created_at": "2026-06-09T13:41:50.685Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 278,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: ---\n\n## 📋 Refund Decision — Order ID: 14 | Customer User ID: 5\n\n### ❌ Decision: **DENY REFUND** — Escalate Account to Risk Team\n\n---\n\n### 📌 Reason for Decision\n\nAfter a thorough review of the case and",
+    "created_at": "2026-06-09T13:41:50.687Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 279,
+  "fields": {
+    "conversation": 27,
+    "event_type": "final",
+    "message": "I have spoken to my manager and have a final decision for you. The refund for Order 14 has been denied. The reasons are that the product is 446 days old and outside the return window, a refund for this same order was already denied before, and the staff promise you mentioned could not be verified without any written proof. I am sorry but this is the final decision and we are unable to take this further.",
+    "created_at": "2026-06-09T13:41:55.172Z"
+  }
+}
+]
