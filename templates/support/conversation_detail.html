@@ -55,22 +55,22 @@
               <div style="width:8px;height:8px;border-radius:50%;background:#1D9E75;"></div>
               <span class="fw-semibold">Agent Activity</span>
             </div>
-            <div class="card-body overflow-auto d-flex flex-column gap-3" id="agent-activity">
+            <div class="card-body overflow-auto" id="agent-activity">
 
               <!-- Log entry -->
                {% for log in agentlogs %}
               <div>
                 <div class="d-flex align-items-center gap-2 mb-1">
                 {% if log.event_type == "tool_call" %}
-                  <span class="badge bg-primary" style="font-size:10px;">tool_call</span>
+                  <span class="badge bg-primary mb-1" style="font-size:10px;">tool_call</span>
                 {% elif log.event_type == "tool_result" %}
-                  <span class="badge bg-secondary" style="font-size:10px;">tool_result</span>
+                  <span class="badge bg-secondary mb-1" style="font-size:10px;">tool_result</span>
                 {% elif log.event_type == "manager" %}
-                  <span class="badge bg-warning text-dark" style="font-size:10px;">manager</span>
+                  <span class="badge bg-warning text-dark mb-1" style="font-size:10px;">manager</span>
                 {% elif log.event_type == "risk" %}
-                    <span class="badge bg-danger" style="font-size:10px;">risk</span>
+                    <span class="badge bg-danger mb-1" style="font-size:10px;">risk</span>
                 {% else %}
-                    <span class="badge bg-success" style="font-size:10px;">final</span>
+                    <span class="badge bg-success mb-1" style="font-size:10px;">final</span>
                 {% endif %}
                   <span class="text-muted" style="font-size:11px;">{{ log.created_at | date:"h:i A" }}</span>
                 </div>
@@ -79,6 +79,7 @@
 
               {% endfor %}
 
+              
             </div>
           </div>
         </div>
@@ -86,6 +87,108 @@
       </div>
 
   <script>
+
+    function appendMessage(role, name, message){
+      const chatTranscript = document.getElementById("chat-transcript");
+
+      if(role == "user"){
+        chatTranscript.insertAdjacentHTML("beforeend", `
+          <div>
+              <div style="font-size:11px;color:#adb5bd;margin-bottom:3px;">${name}</div>
+              <div class="bg-light rounded p-2 px-3" style="font-size:13px;max-width:85%;">
+              ${message}
+              </div>
+          </div>
+        `);
+      } else{
+        chatTranscript.insertAdjacentHTML("beforeend", `
+          <div class="text-end">
+              <div style="font-size:11px;color:#adb5bd;margin-bottom:3px;">${name} (AI Agent)</div>
+              <div class="rounded p-2 px-3 d-inline-block text-start" 
+                    style="font-size:13px;max-width:85%;background:#ede9fe;color:#3C3489;">
+                    ${message}
+              </div>
+          </div>
+        `);
+      }
+
+      chatTranscript.scrollTop = chatTranscript.scrollHeight;
+    }
+
+    function showSpinner(){
+      document.getElementById("agent-activity").insertAdjacentHTML("beforeend", 
+        `<div class="spinner-border spinner-border-sm" id="agent-spinner" role="status"></div>`
+      );
+      agentActivity.scrollTop = agentActivity.scrollHeight;
+    }
+
+    function hideSpinner(){
+      document.getElementById("agent-spinner")?.remove();
+    }
+
+    function appendLog(type, message){
+      const agentActivity = document.getElementById("agent-activity");
+      const time = new Date().toLocaleTimeString([],  {hour: '2-digit', minute: '2-digit', hour12: true});
+
+      const badgeColors = {
+        "tool_call": "bg-primary",
+        "tool_result": "bg-secondary",
+        "manager": "bg-warning text-dark",
+        "risk": "bg-danger",
+        "final": "bg-success"
+      }
+
+      const badgeColor = badgeColors[type] || bg-secondary; // badgeColors["manager"]
+
+      agentActivity.insertAdjacentHTML("beforeend", `
+        <div>
+            <div class="d-flex align-items-center gap-2 mb-1">
+              <span class="badge ${badgeColor}" style="font-size:10px;">${type}</span>
+              <span class="text-muted" style="font-size:11px;">${time}</span>
+            </div>
+            <p class="mb-0 text-muted" style="font-size:12px;">${message}</p>
+        </div>
+      `);
+
+      agentActivity.scrollTop = agentActivity.scrollHeight;
+    }
+
+    const conversationId = {{ conversation.id }};
+    const source = new EventSource(`/support/dashboard/stream/${conversationId}/`); // establishing SSE connection
+
+    source.onmessage = (e) => {
+      const event = JSON.parse(e.data);
+
+      if(event.type == "done"){
+        hideSpinner();
+        return;
+      }
+
+      hideSpinner();
+      
+      if(event.type == "user_message"){
+        appendMessage("user", event.name, event.message);
+        // append the message to chat transcript
+      } else if(event.type == "final"){
+        appendLog(event.type, event.message);
+        appendMessage("assistant", "Maya", event.message);
+        // append the message to transcript
+      }else{
+        appendLog(event.type, event.message);
+      }
+      
+
+      if(event.type !== "final"){
+        showSpinner();
+      };
+
+      source.onerror = () => {
+        console.log("SSE connection closed.");
+        source.close();
+      }
+    }
+
+
     document.addEventListener("DOMContentLoaded", function(){
       const chatTranscript = document.getElementById("chat-transcript");
       const agentActivity = document.getElementById("agent-activity");
